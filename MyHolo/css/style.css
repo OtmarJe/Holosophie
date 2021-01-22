@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Chivo;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #404042;
+  opacity: .7;
+  margin: .8em;
+  text-align: center;
+}
+
+a {
+  color: #B2B2B2;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+
+.box {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 8em;
+  margin: 0;
+}
+
+.banner h2 {
+  color: #404042;
+  opacity: .7;
+  font-size: 3em;
+  font-weight: lighter;
+  margin-top: 24px;
+  margin-bottom: 45px;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 10em;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 10em;
+  margin-bottom: 12em;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 20em;
+  margin-bottom: 17em;
+}
+
+.btn-holos {
+  background-color: #B2B2B2;
+  color: white;
+  width: 190px;
+  padding: 50px;
+  border-radius: 140px 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn-holos:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-impress {
+  font-family: Chivo;
+  font-size: .8em;
+  color: white;
+}
+
+.btn-impress:hover {
+  color: grey;
+}
+
+.jumpto {
+  font-family: Chivo;
+  color: black;
+}
+
+.jumpto:hover {
+  color: black;
+}
+
+.flex-cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.flex-cards > div {
+  width: auto;
+  margin: 10px;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  width: 300px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  font-size: 1.1em;
+  margin: .5em;
+}
+
+.footer {
+  background: #B2B2B2;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer h3 {
+  font-size: 1.2em;
+  color: white;
+}
+
+  
+/* New media queries */
+@media (max-width: 800px) {
+  .flex-cards {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  .card-white {
+    width: auto;
+  }
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container3 {
+    width: auto;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container3 {
+    width: auto;
+    height: auto;
+  }
+  .banner h1 {
+    font-size: 6em;
+    padding: 30px 0;
+  }
+  .banner h2 {
+    font-size: 2.2em;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container3 {
+    width: auto;
+    height: auto;
+  }
+  .flex-cards {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  .banner h1 {
+    font-size: 5em;
+    padding: 0;
+  }
+  .banner h2 {
+    font-size: 2em;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container3 {
+    width: auto;
+    height: auto;
+  }
+  .flex-cards {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  .banner h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  .banner h2 {
+    font-size: 1.9em;
+  }
+}
+
+
+
+/* Start of ANIMATIONS */
+
+.typewriter-h4 {
+  display: inline-block;
+  height: 3em;
+  text-align: right;
+  margin-left: 1.5%;
+  padding-right: 1.5%;
+  font-family: monospace;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: nowrap;
+  animation: typing 9s steps(60) forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+.shadow {
+  animation: text-shadow 13s infinite alternate;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+@keyframes text-shadow {
+  0% {text-shadow: 1px 1px 0px #333}
+  10% {text-shadow: 3px 3px 2px #333}
+  20% {text-shadow: 9px 10px 6px #999}
+  40% {text-shadow: 10px 13px 6px #ccc}
+  60% {text-shadow: 6px 10px 4px #ccc}
+  80% {text-shadow: 2px 8px 3px #ccc}
+  100% {text-shadow: 1px 5px 1px #eee}
+}
