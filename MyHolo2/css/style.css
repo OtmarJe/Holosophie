@@ -317,7 +317,7 @@ p {
   100% {text-shadow: 1px 5px 1px #eee}
 }
 
-/* Wave Animation */
+/* Box Animation */
 .box2 {
   margin-left: 1em;
 }
@@ -365,4 +365,8 @@ p {
   100% {left: 1280px; background: white; width: 31em;}
 }
 
+/* Javascript Wave Animation */
+.canvas-wrap {
+  
+}
 
