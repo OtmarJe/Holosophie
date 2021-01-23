@@ -47,6 +47,18 @@ p {
   padding: 150px 0;
 }
 
+.box2 {
+  margin-left: 1em;
+}
+
+.box3 {
+  min-height: : 3em;
+  font-family: Chivo;
+  color: silver;
+  text-align: center;
+  padding: 2em;
+}
+
 .banner {
   text-align: center;
 }
