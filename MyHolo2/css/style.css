@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Overpass;
   color: #404042;
@@ -93,6 +97,14 @@ p {
   margin-bottom: 17em;
 }
 
+.container4 {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100px;
+  margin-bottom: 17em;
+}
+
 .btn-holos {
   background-color: #B2B2B2;
   color: white;
@@ -173,6 +185,16 @@ p {
   color: white;
 }
 
+/* Wave container */
+
+.wave-container {
+  position: flex;
+  background: white;
+  overflow: hidden;
+}
+.wave-container > svg {
+  display: block;
+}
   
 /* New media queries */
 @media (max-width: 800px) {
@@ -282,3 +304,53 @@ p {
   80% {text-shadow: 2px 8px 3px #ccc}
   100% {text-shadow: 1px 5px 1px #eee}
 }
+
+/* Wave Animation */
+.box2 {
+  margin-left: 1em;
+}
+
+.containerAnimate {
+  width: 30em;
+  height: 3em;
+  font-family: Chivo;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  background: white;
+  border-radius: 13px;
+  position: relative;
+  animation-name: animateWave;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes animateWave {
+  0%   {left: 0px; background: white; width: 30em;}
+  3%   {left: 0px; background: white; width: 30em;}
+  5%   {left: 10px; background: silver; width: 31em;}
+  7%   {left: 10px; background: darkgrey; width: 31em;}  
+  10%  {left: 30px; background: grey; width: 32em;}
+  15%  {left: 50px; background: green; width: 33em;}
+  20%  {left: 90px; background: blue; width: 32em;}
+  25%  {left: 130px; background: black; width: 31em;}
+  30%  {left: 250px; background: white; width: 30em;}
+  35%  {left: 400px; background: magenta; width: 29em;}
+  40%  {left: 500px; background: red; width: 28em;}
+  45%  {left: 558px; background: aqua; width: 29em;}
+  50%  {left: 610px; background: white; width: 30em;}
+  55%  {left: 700px; background: pink; width: 31em;}
+  60%  {left: 780px; background: indianred; width: 32em;}
+  65%  {left: 820px; background: crimson; width: 33em;}
+  70%  {left: 910px; background: purple; width: 34em;}
+  75%  {left: 950px; background: white; width: 35em;}
+  80%  {left: 1000px; background: khaki; width: 35.5em;}
+  85%  {left: 1100px; background: yellow; width: 34em;}
+  90%  {left: 1170px; background: fuchsia; width: 33em;}
+  95%  {left: 1200px; background: blue; width: 32em;}
+  100% {left: 1280px; background: white; width: 31em;}
+}
+
+
