@@ -577,13 +577,13 @@ p {
 }
 
 @keyframes animatedKox {
-  0%   {left: 42vw; background: white; width: 30vw;}
-  3%   {left: 63vw; background: #deeaee; width: 30vw;}
-  5%   {left: 70vw; background: brown; width: 30vw;}
-  7%   {left: 76vw; background: white; width: 30vw;}  
-  10%  {left: 71vw; background: red; width: 30vw;}
-  15%  {left: 65vw; background: white; width: 30vw;}
-  20%  {left: 72vw; background: #f0f0f0; width: 30vw;}
+  0%   {left: 0vw; background: white; width: 30vw;}
+  3%   {left: 10vw; background: #deeaee; width: 30vw;}
+  5%   {left: 25vw; background: brown; width: 30vw;}
+  7%   {left: 20vw; background: white; width: 30vw;}  
+  10%  {left: 8vw; background: red; width: 30vw;}
+  15%  {left: 22vw; background: white; width: 30vw;}
+  20%  {left: 34vw; background: #f0f0f0; width: 30vw;}
   25%  {left: 55vw; background: pink; width: 30vw;}
   30%  {left: 48vw; background: white; width: 30vw;}
   35%  {left: 77vw; background: #f0efef; width: 30vw;}
