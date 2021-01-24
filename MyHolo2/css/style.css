@@ -21,6 +21,29 @@ h2 {
   text-align: center;
 }
 
+.homeBtn {
+  color: grey !important;
+  font-family: Chivo;
+  font-size: .7em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: silver;
+  padding: 10px;
+  border-radius: 30px 8px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-top: .5em;
+}
+
+.homeBtn:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
 a {
   color: #B2B2B2;
   font-weight: bold;
@@ -41,7 +64,7 @@ p {
 .box {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 5em 0;
 }
 
 .box2 {
@@ -93,7 +116,7 @@ p {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 10em;
+  height: 8em;
 }
 
 .container2 {
@@ -101,8 +124,8 @@ p {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 10em;
-  margin-bottom: 12em;
+  height: 8em;
+  margin-bottom: 10em;
 }
 
 .container3 {
@@ -111,7 +134,7 @@ p {
   align-items: center;
   width: auto;
   height: 20em;
-  margin-bottom: 17em;
+  margin-bottom: 10em;
 }
 
 .container4 {
@@ -132,8 +155,8 @@ p {
   text-align: center;
   padding: 2em;
   width: auto;
-  height: 5em;
-  margin: 3em;
+  height: 2em;
+  margin: 2em;
 }
 
 .btn-holos {
@@ -229,11 +252,11 @@ p {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container3 {
-    max-width: 90em;
+    max-width: auto;
     height: auto;
   }
   .container5 {
-    max-width: 90em;
+    max-width: 70em;
     height: auto;
   }
 }
@@ -245,7 +268,7 @@ p {
     height: auto;
   }
   .container5 {
-    max-width: 70em;
+    max-width: 50em;
     height: auto;
   }
   .banner h1 {
@@ -267,7 +290,7 @@ p {
     height: auto;
   }
   .container5 {
-    max-width: 50em;
+    max-width: 40em;
     height: auto;
   }
   .flex-cards {
@@ -290,7 +313,7 @@ p {
     height: auto;
   }
   .container5 {
-    max-width: 35em;
+    max-width: 20em;
     height: auto;
   }
   .flex-cards {
@@ -393,7 +416,7 @@ p {
 
 .containerAnimate1 {
   width: 30em;
-  height: 6em;
+  height: 8em;
   font-family: Chivo;
   font-size: .9em;
   color: black;
@@ -407,6 +430,7 @@ p {
   animation-name: animateKontaner;
   animation-duration: 40s;
   animation-timing-function: linear;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
 
 }
@@ -427,19 +451,19 @@ p {
   50%  {left: 41vw; background: white; width: 30vw;}
   55%  {left: 48vw; background: blue; width: 30vw;}
   60%  {left: 55vw; background: indianred; width: 30vw;}
-  65%  {left: 60vw; background: crimson; width: 30vw;}
-  70%  {left: 65vw; background: purple; width: 30vw;}
-  75%  {left: 70vw; background: white; width: 30vw;}
-  80%  {left: 85vw; background: khaki; width: 30vw;}
-  85%  {left: 80vw; background: red; width: 30vw;}
-  90%  {left: 81vw; background: fuchsia; width: 30vw;}
-  95%  {left: 85vw; background: blue; width: 30vw;}
-  100% {left: 90vw; background: white; width: 30vw;}
+  65%  {left: 57vw; background: crimson; width: 30vw;}
+  70%  {left: 60vw; background: purple; width: 30vw;}
+  75%  {left: 59vw; background: white; width: 30vw;}
+  80%  {left: 40vw; background: khaki; width: 30vw;}
+  85%  {left: 30vw; background: red; width: 30vw;}
+  90%  {left: 20vw; background: fuchsia; width: 30vw;}
+  95%  {left: 10vw; background: blue; width: 30vw;}
+  100% {left: 5vw; background: white; width: 30vw;}
 }
 
 .containerAnimate2 {
   width: 30em;
-  height: 6em;
+  height: 8em;
   font-family: Chivo;
   font-size: .9em;
   color: black;
@@ -453,6 +477,7 @@ p {
   animation-name: animatedBox;
   animation-duration: 60s;
   animation-timing-function: linear;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
 
 }
@@ -473,19 +498,19 @@ p {
   50%  {left: 62vw; background: white; width: 30vw;}
   55%  {left: 64vw; background: red; width: 30vw;}
   60%  {left: 68vw; background: #cfe0e8; width: 30vw;}
-  65%  {left: 71vw; background: blue; width: 30vw;}
-  70%  {left: 75vw; background: #fbefcc; width: 30vw;}
-  75%  {left: 77vw; background: white; width: 30vw;}
-  80%  {left: 79vw; background: #f9d5e5; width: 30vw;}
-  85%  {left: 83vw; background: blue; width: 30vw;}
-  90%  {left: 85vw; background: #ffeead; width: 30vw;}
-  95%  {left: 87vw; background: green; width: 30vw;}
-  100% {left: 90vw; background: white; width: 30vw;}
+  65%  {left: 67vw; background: blue; width: 30vw;}
+  70%  {left: 65vw; background: #fbefcc; width: 30vw;}
+  75%  {left: 61vw; background: white; width: 30vw;}
+  80%  {left: 55vw; background: #f9d5e5; width: 30vw;}
+  85%  {left: 48vw; background: blue; width: 30vw;}
+  90%  {left: 38vw; background: #ffeead; width: 30vw;}
+  95%  {left: 20vw; background: green; width: 30vw;}
+  100% {left: 10vw; background: white; width: 30vw;}
 }
 
 .containerAnimate3 {
   width: 30em;
-  height: 6em;
+  height: 8em;
   font-family: Chivo;
   font-size: .9em;
   color: black;
@@ -499,18 +524,19 @@ p {
   animation-name: animatedMox;
   animation-duration: 65s;
   animation-timing-function: linear;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
 
 }
 
 @keyframes animatedMox {
-  0%   {left: 90vw; background: white; width: 30vw;}
-  3%   {left: 84vw; background: #deeaee; width: 30vw;}
-  5%   {left: 82vw; background: #d5e1df; width: 30vw;}
-  7%   {left: 80vw; background: white; width: 30vw;}  
-  10%  {left: 75vw; background: #d6cbd3; width: 30vw;}
-  15%  {left: 70vw; background: white; width: 30vw;}
-  20%  {left: 65vw; background: #f0f0f0; width: 30vw;}
+  0%   {left: 30vw; background: white; width: 30vw;}
+  3%   {left: 40vw; background: #deeaee; width: 30vw;}
+  5%   {left: 45vw; background: #d5e1df; width: 30vw;}
+  7%   {left: 53vw; background: white; width: 30vw;}  
+  10%  {left: 50vw; background: #d6cbd3; width: 30vw;}
+  15%  {left: 44vw; background: white; width: 30vw;}
+  20%  {left: 40vw; background: #f0f0f0; width: 30vw;}
   25%  {left: 56vw; background: #eaece5; width: 30vw;}
   30%  {left: 49vw; background: white; width: 30vw;}
   35%  {left: 83vw; background: #f0efef; width: 30vw;}
@@ -531,7 +557,7 @@ p {
 
 .containerAnimate4 {
   width: 30em;
-  height: 6em;
+  height: 8em;
   font-family: Chivo;
   font-size: .9em;
   color: black;
@@ -545,6 +571,7 @@ p {
   animation-name: animatedKox;
   animation-duration: 65s;
   animation-timing-function: linear;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
 
 }
