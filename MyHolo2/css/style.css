@@ -56,11 +56,12 @@ p {
 }
 
 .box4 {
-  min-height: : 18em;
+  height: 5em;
   font-family: Chivo;
   color: grey;
   text-align: center;
   padding: 2em;
+  margin: 1em;
 }
 
 .banner {
@@ -123,6 +124,16 @@ p {
 
 .container5 {
   width: auto;
+}
+
+.container6 {
+  font-family: Chivo;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  width: auto;
+  height: 5em;
+  margin: 3em;
 }
 
 .btn-holos {
@@ -204,17 +215,6 @@ p {
   font-size: 1.2em;
   color: white;
 }
-
-/* Wave container */
-
-.wave-container {
-  position: flex;
-  background: white;
-  overflow: hidden;
-}
-.wave-container > svg {
-  display: block;
-}
   
 /* New media queries */
 @media (max-width: 800px) {
@@ -229,14 +229,23 @@ p {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container3 {
-    width: auto;
+    max-width: 100vw;
+    height: auto;
+  }
+  .container5 {
+    max-width: 100vw;
+    height: auto;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .container3 {
-    width: auto;
+    max-width: 100vw;
+    height: auto;
+  }
+  .container5 {
+    max-width: 100vw;
     height: auto;
   }
   .banner h1 {
@@ -246,12 +255,19 @@ p {
   .banner h2 {
     font-size: 2.2em;
   }
+  .box4 {
+
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .container3 {
-    width: auto;
+    max-width: 100vw;
+    height: auto;
+  }
+  .container5 {
+    max-width: 100vw;
     height: auto;
   }
   .flex-cards {
@@ -270,7 +286,11 @@ p {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .container3 {
-    width: auto;
+    max-width: 100vw;
+    height: auto;
+  }
+  .container5 {
+    max-width: 100vw;
     height: auto;
   }
   .flex-cards {
@@ -373,58 +393,60 @@ p {
 
 .containerAnimate1 {
   width: 30em;
-  height: 7em;
+  height: 6em;
   font-family: Chivo;
+  font-size: .9em;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 2em;
   background: white;
   border-radius: 13px;
   position: relative;
-  animation-name: animateContainer1;
+  animation-name: animateKontaner;
   animation-duration: 40s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
 }
 
-@keyframes animateContainer1 {
-  0%   {left: 0px; background: white; width: 30em;}
-  3%   {left: 5px; background: red; width: 30em;}
-  5%   {left: 10px; background: silver; width: 31em;}
-  7%   {left: 15px; background: darkgrey; width: 31em;}  
-  10%  {left: 20px; background: grey; width: 32em;}
-  15%  {left: 30px; background: green; width: 33em;}
-  20%  {left: 90px; background: blue; width: 32em;}
-  25%  {left: 130px; background: black; width: 31em;}
-  30%  {left: 250px; background: green; width: 30em;}
-  35%  {left: 400px; background: magenta; width: 29em;}
-  40%  {left: 500px; background: red; width: 28em;}
-  45%  {left: 558px; background: aqua; width: 29em;}
-  50%  {left: 610px; background: white; width: 30em;}
-  55%  {left: 700px; background: blue; width: 31em;}
-  60%  {left: 780px; background: indianred; width: 32em;}
-  65%  {left: 820px; background: crimson; width: 33em;}
-  70%  {left: 910px; background: purple; width: 34em;}
-  75%  {left: 950px; background: white; width: 35em;}
-  80%  {left: 1000px; background: khaki; width: 35.5em;}
-  85%  {left: 1100px; background: red; width: 34em;}
-  90%  {left: 1170px; background: fuchsia; width: 33em;}
-  95%  {left: 1200px; background: blue; width: 32em;}
-  100% {left: 1280px; background: white; width: 31em;}
+@keyframes animateKontaner {
+  0%   {left: 0vw; background: white; width: 30vw;}
+  3%   {left: 1vw; background: red; width: 30vw;}
+  5%   {left: 2vw; background: silver; width: 30vw;}
+  7%   {left: 3vw; background: darkgrey; width: 30vw;}  
+  10%  {left: 4vw; background: grey; width: 30vw;}
+  15%  {left: 5vw; background: green; width: 30vw;}
+  20%  {left: 7vw; background: blue; width: 30vw;}
+  25%  {left: 9vw; background: black; width: 30vw;}
+  30%  {left: 16vw; background: green; width: 30vw;}
+  35%  {left: 25vw; background: magenta; width: 30vw;}
+  40%  {left: 30vw; background: red; width: 30vw;}
+  45%  {left: 35vw; background: aqua; width: 30vw;}
+  50%  {left: 41vw; background: white; width: 30vw;}
+  55%  {left: 48vw; background: blue; width: 30vw;}
+  60%  {left: 55vw; background: indianred; width: 30vw;}
+  65%  {left: 60vw; background: crimson; width: 30vw;}
+  70%  {left: 65vw; background: purple; width: 30vw;}
+  75%  {left: 70vw; background: white; width: 30vw;}
+  80%  {left: 85vw; background: khaki; width: 30vw;}
+  85%  {left: 80vw; background: red; width: 30vw;}
+  90%  {left: 81vw; background: fuchsia; width: 30vw;}
+  95%  {left: 85vw; background: blue; width: 30vw;}
+  100% {left: 90vw; background: white; width: 30vw;}
 }
 
 .containerAnimate2 {
   width: 30em;
-  height: 7em;
+  height: 6em;
   font-family: Chivo;
+  font-size: .9em;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 2em;
   background: white;
   border-radius: 13px;
   position: relative;
@@ -436,40 +458,41 @@ p {
 }
 
 @keyframes animatedBox {
-  0%   {left: 0px; background: white; width: 30em;}
-  3%   {left: 20px; background: green; width: 30em;}
-  5%   {left: 40px; background: #d5e1df; width: 30em;}
-  7%   {left: 70px; background: white; width: 30em;}  
-  10%  {left: 100px; background: blue; width: 30em;}
-  15%  {left: 150px; background: white; width: 30em;}
-  20%  {left: 230px; background: #f0f0f0; width: 30em;}
-  25%  {left: 300px; background: #eaece5; width: 30em;}
-  30%  {left: 380px; background: white; width: 30em;}
-  35%  {left: 450px; background: #f0efef; width: 30em;}
-  40%  {left: 600px; background: green; width: 30em;}
-  45%  {left: 750px; background: #e0e2e4; width: 30em;}
-  50%  {left: 820px; background: white; width: 30em;}
-  55%  {left: 500px; background: red; width: 30em;}
-  60%  {left: 700px; background: #cfe0e8; width: 30em;}
-  65%  {left: 820px; background: blue; width: 30em;}
-  70%  {left: 910px; background: #fbefcc; width: 30em;}
-  75%  {left: 950px; background: white; width: 30em;}
-  80%  {left: 1000px; background: #f9d5e5; width: 30em;}
-  85%  {left: 1100px; background: blue; width: 30em;}
-  90%  {left: 1170px; background: #ffeead; width: 30em;}
-  95%  {left: 1200px; background: green; width: 30em;}
-  100% {left: 1280px; background: white; width: 30em;}
+  0%   {left: 0vw; background: white; width: 30vw;}
+  3%   {left: 2vw; background: green; width: 30vw;}
+  5%   {left: 5vw; background: #d5e1df; width: 30vw;}
+  7%   {left: 6vw; background: white; width: 30vw;}  
+  10%  {left: 7vw; background: blue; width: 30vw;}
+  15%  {left: 11vw; background: white; width: 30vw;}
+  20%  {left: 16vw; background: #f0f0f0; width: 30vw;}
+  25%  {left: 20vw; background: #eaece5; width: 30vw;}
+  30%  {left: 26vw; background: white; width: 30vw;}
+  35%  {left: 35vw; background: #f0efef; width: 30vw;}
+  40%  {left: 44vw; background: green; width: 30vw;}
+  45%  {left: 60vw; background: #e0e2e4; width: 30vw;}
+  50%  {left: 62vw; background: white; width: 30vw;}
+  55%  {left: 64vw; background: red; width: 30vw;}
+  60%  {left: 68vw; background: #cfe0e8; width: 30vw;}
+  65%  {left: 71vw; background: blue; width: 30vw;}
+  70%  {left: 75vw; background: #fbefcc; width: 30vw;}
+  75%  {left: 77vw; background: white; width: 30vw;}
+  80%  {left: 79vw; background: #f9d5e5; width: 30vw;}
+  85%  {left: 83vw; background: blue; width: 30vw;}
+  90%  {left: 85vw; background: #ffeead; width: 30vw;}
+  95%  {left: 87vw; background: green; width: 30vw;}
+  100% {left: 90vw; background: white; width: 30vw;}
 }
 
 .containerAnimate3 {
   width: 30em;
-  height: 7em;
+  height: 6em;
   font-family: Chivo;
+  font-size: .9em;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 2em;
   background: white;
   border-radius: 13px;
   position: relative;
@@ -481,40 +504,41 @@ p {
 }
 
 @keyframes animatedMox {
-  0%   {left: 1280px; background: white; width: 30em;}
-  3%   {left: 1200px; background: #deeaee; width: 30em;}
-  5%   {left: 1170px; background: #d5e1df; width: 30em;}
-  7%   {left: 1100px; background: white; width: 30em;}  
-  10%  {left: 1000px; background: #d6cbd3; width: 30em;}
-  15%  {left: 900px; background: white; width: 30em;}
-  20%  {left: 910px; background: #f0f0f0; width: 30em;}
-  25%  {left: 800px; background: #eaece5; width: 30em;}
-  30%  {left: 700px; background: white; width: 30em;}
-  35%  {left: 1100px; background: #f0efef; width: 30em;}
-  40%  {left: 600px; background: #e4d1d1; width: 30em;}
-  45%  {left: 750px; background: #e0e2e4; width: 30em;}
-  50%  {left: 820px; background: white; width: 30em;}
-  55%  {left: 500px; background: blue; width: 30em;}
-  60%  {left: 400px; background: #cfe0e8; width: 30em;}
-  65%  {left: 820px; background: white; width: 30em;}
-  70%  {left: 300px; background: #fbefcc; width: 30em;}
-  75%  {left: 250px; background: #fff2df; width: 30em;}
-  80%  {left: 200px; background: #f9d5e5; width: 30em;}
-  85%  {left: 100px; background: #d6d4e0; width: 30em;}
-  90%  {left: 50px; background: #ffeead; width: 30em;}
-  95%  {left: 20px; background: yellow; width: 30em;}
-  100% {left: 0px; background: white; width: 30em;}
+  0%   {left: 90vw; background: white; width: 30vw;}
+  3%   {left: 84vw; background: #deeaee; width: 30vw;}
+  5%   {left: 82vw; background: #d5e1df; width: 30vw;}
+  7%   {left: 80vw; background: white; width: 30vw;}  
+  10%  {left: 75vw; background: #d6cbd3; width: 30vw;}
+  15%  {left: 70vw; background: white; width: 30vw;}
+  20%  {left: 65vw; background: #f0f0f0; width: 30vw;}
+  25%  {left: 56vw; background: #eaece5; width: 30vw;}
+  30%  {left: 49vw; background: white; width: 30vw;}
+  35%  {left: 83vw; background: #f0efef; width: 30vw;}
+  40%  {left: 42vw; background: #e4d1d1; width: 30vw;}
+  45%  {left: 50vw; background: #e0e2e4; width: 30vw;}
+  50%  {left: 57vw; background: white; width: 30vw;}
+  55%  {left: 37vw; background: blue; width: 30vw;}
+  60%  {left: 32vw; background: #cfe0e8; width: 30vw;}
+  65%  {left: 56vw; background: white; width: 30vw;}
+  70%  {left: 21vw; background: #fbefcc; width: 30vw;}
+  75%  {left: 18vw; background: #fff2df; width: 30vw;}
+  80%  {left: 12vw; background: #f9d5e5; width: 30vw;}
+  85%  {left: 8vw; background: #d6d4e0; width: 30vw;}
+  90%  {left: 3vw; background: #ffeead; width: 30vw;}
+  95%  {left: 1vw; background: yellow; width: 30vw;}
+  100% {left: 0vw; background: white; width: 30vw;}
 }
 
 .containerAnimate4 {
   width: 30em;
-  height: 7em;
+  height: 6em;
   font-family: Chivo;
+  font-size: .9em;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 2em;
   background: white;
   border-radius: 13px;
   position: relative;
@@ -526,27 +550,27 @@ p {
 }
 
 @keyframes animatedKox {
-  0%   {left: 600px; background: white; width: 30em;}
-  3%   {left: 900px; background: #deeaee; width: 30em;}
-  5%   {left: 1000px; background: brown; width: 30em;}
-  7%   {left: 1100px; background: white; width: 30em;}  
-  10%  {left: 1000px; background: red; width: 30em;}
-  15%  {left: 900px; background: white; width: 30em;}
-  20%  {left: 910px; background: #f0f0f0; width: 30em;}
-  25%  {left: 800px; background: pink; width: 30em;}
-  30%  {left: 700px; background: white; width: 30em;}
-  35%  {left: 1100px; background: #f0efef; width: 30em;}
-  40%  {left: 600px; background: grey; width: 30em;}
-  45%  {left: 750px; background: #e0e2e4; width: 30em;}
-  50%  {left: 820px; background: white; width: 30em;}
-  55%  {left: 500px; background: blue; width: 30em;}
-  60%  {left: 400px; background: #cfe0e8; width: 30em;}
-  65%  {left: 820px; background: white; width: 30em;}
-  70%  {left: 300px; background: #fbefcc; width: 30em;}
-  75%  {left: 250px; background: green; width: 30em;}
-  80%  {left: 200px; background: red; width: 30em;}
-  85%  {left: 100px; background: blue; width: 30em;}
-  90%  {left: 50px; background: purple; width: 30em;}
-  95%  {left: 20px; background: yellow; width: 30em;}
-  100% {left: 0px; background: white; width: 30em;}
+  0%   {left: 42vw; background: white; width: 30vw;}
+  3%   {left: 63vw; background: #deeaee; width: 30vw;}
+  5%   {left: 70vw; background: brown; width: 30vw;}
+  7%   {left: 76vw; background: white; width: 30vw;}  
+  10%  {left: 71vw; background: red; width: 30vw;}
+  15%  {left: 65vw; background: white; width: 30vw;}
+  20%  {left: 72vw; background: #f0f0f0; width: 30vw;}
+  25%  {left: 55vw; background: pink; width: 30vw;}
+  30%  {left: 48vw; background: white; width: 30vw;}
+  35%  {left: 77vw; background: #f0efef; width: 30vw;}
+  40%  {left: 41vw; background: grey; width: 30vw;}
+  45%  {left: 52vw; background: #e0e2e4; width: 30vw;}
+  50%  {left: 57vw; background: white; width: 30vw;}
+  55%  {left: 37vw; background: blue; width: 30vw;}
+  60%  {left: 28vw; background: #cfe0e8; width: 30vw;}
+  65%  {left: 56vw; background: white; width: 30vw;}
+  70%  {left: 21vw; background: #fbefcc; width: 30vw;}
+  75%  {left: 15vw; background: green; width: 30vw;}
+  80%  {left: 13vw; background: red; width: 30vw;}
+  85%  {left: 7vw; background: blue; width: 30vw;}
+  90%  {left: 3vw; background: purple; width: 30vw;}
+  95%  {left: 1vw; background: yellow; width: 30vw;}
+  100% {left: 0vw; background: white; width: 30vw;}
 }
