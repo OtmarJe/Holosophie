@@ -21,7 +21,13 @@ h2 {
   text-align: center;
 }
 
-
+h3 {
+  font-size: 1.3em;
+  color: #404042;
+  opacity: .7;
+  margin: .8em;
+  text-align: center;
+}
 
 .homeBtn {
   color: black !important;
@@ -88,6 +94,12 @@ p {
   margin: 2em;
 }
 
+.box5 {
+  background-size: cover;
+  background-position: center;
+  padding: 3em 0;
+}
+
 .banner {
   text-align: center;
 }
@@ -133,7 +145,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 96%;
+  width: 99%;
   height: 20em;
   margin-bottom: 1em;
 }
@@ -259,7 +271,6 @@ p {
   text-align: center;
   justify-content: initial;
   padding: .7em;
-  margin: 1em;
 }
 
 .footer {
@@ -324,11 +335,11 @@ p {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .container3 {
-    max-width: 50em;
+    max-width: 60em;
     height: auto;
   }
   .container5 {
-    max-width: 50em;
+    max-width: 60em;
     height: auto;
   }
   .flex-cards {
@@ -351,11 +362,11 @@ p {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .container3 {
-    max-width: 35em;
+    max-width: 40em;
     height: auto;
   }
   .container5 {
-    max-width: 30em;
+    max-width: 40em;
     height: auto;
   }
   .flex-cards {
@@ -494,13 +505,13 @@ p {
   35%  {left: 27%; background: darkgreen; width: 30vw;}
   40%  {left: 26%; background: red; width: 30vw;}
   45%  {left: 25%; background: darkred; width: 30vw;}
-  50%  {left: 24%; background: navy; width: 30vw;}
-  55%  {left: 23%; background: midnightblue; width: 30vw;}
-  60%  {left: 22%; background: royalblue; width: 30vw;}
-  65%  {left: 21%; background: slateblue; width: 30vw;}
-  70%  {left: 20%; background: slategrey; width: 30vw;}
-  75%  {left: 18%; background: seagreen; width: 30vw;}
-  80%  {left: 15%; background: green; width: 30vw;}
+  50%  {left: 30%; background: navy; width: 30vw;}
+  55%  {left: 40%; background: midnightblue; width: 30vw;}
+  60%  {left: 45%; background: royalblue; width: 30vw;}
+  65%  {left: 55%; background: slateblue; width: 30vw;}
+  70%  {left: 60%; background: slategrey; width: 30vw;}
+  75%  {left: 50%; background: seagreen; width: 30vw;}
+  80%  {left: 35%; background: green; width: 30vw;}
   85%  {left: 25%; background: darkgreen; width: 30vw;}
   90%  {left: 20%; background: darkgrey; width: 30vw;}
   95%  {left: 10%; background: black; width: 30vw;}
@@ -534,11 +545,11 @@ p {
   5%   {left: 8%; background: olive; width: 30vw;}
   7%   {left: 9%; background: olivedrab; width: 30vw;}  
   10%  {left: 10%; background: grey; width: 30vw;}
-  15%  {left: 11%; background: darkgrey; width: 30vw;}
-  20%  {left: 12%; background: grey; width: 30vw;}
-  25%  {left: 14%; background: green; width: 30vw;}
-  30%  {left: 15%; background: darkgreen; width: 30vw;}
-  35%  {left: 20%; background: darkblue; width: 30vw;}
+  15%  {left: 15%; background: darkgrey; width: 30vw;}
+  20%  {left: 20%; background: grey; width: 30vw;}
+  25%  {left: 30%; background: green; width: 30vw;}
+  30%  {left: 40%; background: darkgreen; width: 30vw;}
+  35%  {left: 60%; background: darkblue; width: 30vw;}
   40%  {left: 25%; background: blue; width: 30vw;}
   45%  {left: 18%; background: aliceblue; width: 30vw;}
   50%  {left: 15%; background: red; width: 30vw;}
@@ -580,9 +591,9 @@ p {
   3%   {left: 40%; background: lightgrey; width: 30vw;}
   5%   {left: 45%; background: lightblue; width: 30vw;}
   7%   {left: 53%; background: navy; width: 30vw;}  
-  10%  {left: 50%; background: blue; width: 30vw;}
-  15%  {left: 44%; background: darkblue; width: 30vw;}
-  20%  {left: 40%; background: black; width: 30vw;}
+  10%  {left: 55%; background: blue; width: 30vw;}
+  15%  {left: 60%; background: darkblue; width: 30vw;}
+  20%  {left: 45%; background: black; width: 30vw;}
   25%  {left: 30%; background: darkgrey; width: 30vw;}
   30%  {left: 25%; background: darkred; width: 30vw;}
   35%  {left: 20%; background: red; width: 30vw;}
@@ -597,7 +608,7 @@ p {
   80%  {left: 18%; background: black; width: 30vw;}
   85%  {left: 10%; background: darkgrey; width: 30vw;}
   90%  {left: 7%; background: grey; width: 30vw;}
-  95%  {left: 5%; background: gainsboro; width: 30vw;}
+  95%  {left: 5%; background: red; width: 30vw;}
   100% {left: 3%; background: white; width: 30vw;}
 }
 
@@ -631,8 +642,8 @@ p {
   15%  {left: 15%; background: black; width: 30vw;}
   20%  {left: 30%; background: purple; width: 30vw;}
   25%  {left: 40%; background: saddlebrown; width: 30vw;}
-  30%  {left: 35%; background: sandybrown; width: 30vw;}
-  35%  {left: 20%; background: slategrey; width: 30vw;}
+  30%  {left: 50%; background: sandybrown; width: 30vw;}
+  35%  {left: 60%; background: slategrey; width: 30vw;}
   40%  {left: 10%; background: grey; width: 30vw;}
   45%  {left: 5%; background: darkgrey; width: 30vw;}
   50%  {left: 0%; background: darkgreen; width: 30vw;}
