@@ -30,9 +30,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.1em;
-  color: white;
-  padding-bottom: 2em;
+  font-size: 1.2em;
+  color: 404042;
+  padding-bottom: 1.8em;
   text-align: center;
 }
 
@@ -54,8 +54,8 @@ h4 {
 .homeBtn:hover {
   text-decoration: none;
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
 }
 
@@ -96,7 +96,7 @@ p {
 
 .box4 {
   width: 100%;
-  height: 8em;
+  height: 9em;
   text-align: center;
   margin: 0em;
 }
@@ -248,7 +248,7 @@ p {
 }
 
 .columns-n1 {
-  background: purple;
+  background: antiquewhite;
   box-shadow: 0 0 16px rgba(0,0,0,0.2);
   border-radius: 5px;
   padding-top: 3em;
@@ -480,16 +480,16 @@ p {
 .containerAnimate1 {
   width: auto;
   height: 9em;
-  font-family: Chivo;
-  font-size: .9em;
-  color: white;
+  font-family: Overpass;
+  font-size: 1.1em;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: black;
   position: relative;
   animation-name: animateKontaner;
-  animation-duration: 40s;
+  animation-duration: 53s;
   animation-timing-function: linear;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -500,34 +500,34 @@ p {
   0%   {left: -35%; background: white; width: 150%;}
   3%   {left: -37%; background: linen; width: 155%;}
   5%   {left: -35%; background: lightgrey; width: 150%;}
-  7%   {left: -34%; background: grey; width: 150%;}  
-  10%  {left: -38%; background: darkgrey; width: 155%;}
-  15%  {left: -45%; background: black; width: 160%;}
-  20%  {left: -50%; background: darkblue; width: 170%;}
-  25%  {left: -55%; background: blue; width: 175%;}
-  30%  {left: -48%; background: green; width: 165%;}
-  35%  {left: -47%; background: darkgreen; width: 165%}
-  40%  {left: -46%; background: red; width: 165%;}
-  45%  {left: -45%; background: darkred; width: 165%;}
-  50%  {left: -50%; background: navy; width: 170%;}
-  55%  {left: -60%; background: midnightblue; width: 180%;}
-  60%  {left: -65%; background: royalblue; width: 185%;}
-  65%  {left: -55%; background: slateblue; width: 170%;}
-  70%  {left: -60%; background: slategrey; width: 180%;}
-  75%  {left: -58%; background: seagreen; width: 175%;}
-  80%  {left: -55%; background: green; width: 175%;}
-  85%  {left: -45%; background: darkgreen; width: 165%;}
-  90%  {left: -40%; background: darkgrey; width: 160%;}
-  95%  {left: -38%; background: black; width: 160%;}
-  100% {left: -35%; background: grey; width: 155%;}
+  7%   {left: -34%; background: ivory; width: 150%;}  
+  10%  {left: -38%; background: blanchedalmond; width: 155%;}
+  15%  {left: -45%; background: lemonchiffon; width: 160%;}
+  20%  {left: -50%; background: palegreen; width: 170%;}
+  25%  {left: -55%; background: cyan; width: 175%;}
+  30%  {left: -48%; background: palegreen; width: 165%;}
+  35%  {left: -47%; background: greenyellow; width: 165%}
+  40%  {left: -46%; background: tomato; width: 165%;}
+  45%  {left: -45%; background: plum; width: 165%;}
+  50%  {left: -50%; background: orchid; width: 170%;}
+  55%  {left: -60%; background: pink; width: 180%;}
+  60%  {left: -65%; background: salmon; width: 185%;}
+  65%  {left: -55%; background: antiquewhite; width: 170%;}
+  70%  {left: -60%; background: lightgoldenrodyellow; width: 180%;}
+  75%  {left: -58%; background: yellow; width: 175%;}
+  80%  {left: -55%; background: yellow; width: 175%;}
+  85%  {left: -45%; background: lightyellow; width: 165%;}
+  90%  {left: -40%; background: mistyrose; width: 160%;}
+  95%  {left: -38%; background: oldlace; width: 160%;}
+  100% {left: -35%; background: seashell; width: 155%;}
 }
 
 .containerAnimate2 {
   width: auto;
   height: 9em;
-  font-family: Chivo;
-  font-size: .9em;
-  color: white;
+  font-family: Overpass;
+  font-size: 1.1em;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -542,27 +542,27 @@ p {
 }
 
 @keyframes animatedBox {
-  0%   {left: -34%; background: red; width: 150%;}
+  0%   {left: -34%; background: pink; width: 150%;}
   3%   {left: -35%; background: orangered; width: 150%;}
   5%   {left: -38%; background: olive; width: 150%;}
-  7%   {left: -39%; background: olivedrab; width: 155%;}  
-  10%  {left: -34%; background: grey; width: 155%;}
-  15%  {left: -35%; background: darkgrey; width: 155%;}
-  20%  {left: -40%; background: grey; width: 160%;}
-  25%  {left: -50%; background: green; width: 170%;}
-  30%  {left: -60%; background: darkgreen; width: 180%;}
-  35%  {left: -70%; background: darkblue; width: 190%;}
-  40%  {left: -55%; background: blue; width: 170%;}
+  7%   {left: -39%; background: orchid; width: 155%;}  
+  10%  {left: -34%; background: palevioletred; width: 155%;}
+  15%  {left: -35%; background: lightcoral; width: 155%;}
+  20%  {left: -40%; background: lightpink; width: 160%;}
+  25%  {left: -45%; background: green; width: 170%;}
+  30%  {left: -48%; background: whitesmoke; width: 180%;}
+  35%  {left: -52%; background: wheat; width: 180%;}
+  40%  {left: -50%; background: snow; width: 170%;}
   45%  {left: -48%; background: aliceblue; width: 160%;}
   50%  {left: -45%; background: red; width: 160%;}
-  55%  {left: -37%; background: darkred; width: 155%;}
-  60%  {left: -35%; background: black; width: 155%;}
-  65%  {left: -34%; background: aliceblue; width: 155%;}
-  70%  {left: -40%; background: green; width: 160%;}
-  75%  {left: -43%; background: midnightblue; width: 160%;}
-  80%  {left: -47%; background: navy; width: 165%;}
-  85%  {left: -50%; background: mediumblue; width: 170%;}
-  90%  {left: -40%; background: blue; width: 160%;}
+  55%  {left: -35%; background: peachpuff; width: 155%;}
+  60%  {left: -30%; background: lightgoldenrodyellow; width: 150%;}
+  65%  {left: -20%; background: aliceblue; width: 155%;}
+  70%  {left: -30%; background: seashell; width: 150%;}
+  75%  {left: -35%; background: aliceblue; width: 150%;}
+  80%  {left: -40%; background: aqua; width: 155%;}
+  85%  {left: -45%; background: orange; width: 170%;}
+  90%  {left: -40%; background: lightpink; width: 160%;}
   95%  {left: -37%; background: seashell; width: 157%;}
   100% {left: -34%; background: white; width: 157%;}
 }
@@ -570,9 +570,9 @@ p {
 .containerAnimate3 {
   width: auto;
   height: 9em;
-  font-family: Chivo;
-  font-size: .9em;
-  color: white;
+  font-family: Overpass;
+  font-size: 1.1em;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -587,44 +587,44 @@ p {
 }
 
 @keyframes animatedMox {
-  0%   {left: -40%; background: darkgrey; width: 160%;}
-  3%   {left: -42%; background: lightgrey; width: 160%;}
-  5%   {left: -43%; background: lightblue; width: 160%;}
-  7%   {left: -46%; background: navy; width: 165%;}  
-  10%  {left: -48%; background: blue; width: 170%;}
-  15%  {left: -50%; background: darkblue; width: 170%;}
-  20%  {left: -48%; background: black; width: 170%;}
-  25%  {left: -45%; background: darkgrey; width: 165%;}
-  30%  {left: -40%; background: darkred; width: 160%;}
-  35%  {left: -37%; background: red; width: 155%;}
+  0%   {left: -40%; background: gold; width: 160%;}
+  3%   {left: -42%; background: khaki; width: 160%;}
+  5%   {left: -43%; background: silver; width: 160%;}
+  7%   {left: -46%; background: lightblue; width: 165%;}  
+  10%  {left: -48%; background: aqua; width: 170%;}
+  15%  {left: -50%; background: papayawhip; width: 170%;}
+  20%  {left: -48%; background: peachpuff; width: 170%;}
+  25%  {left: -45%; background: lightgrey; width: 165%;}
+  30%  {left: -40%; background: lightcoral; width: 160%;}
+  35%  {left: -37%; background: lightpink; width: 155%;}
   40%  {left: -35%; background: indianred; width: 155%;}
-  45%  {left: -42%; background: green; width: 160%;}
+  45%  {left: -42%; background: cornsilk; width: 160%;}
   50%  {left: -40%; background: white; width: 160%;}
-  55%  {left: -35%; background: brown; width: 155%;}
-  60%  {left: -40%; background: darkorange; width: 160%;}
+  55%  {left: -35%; background: salmon; width: 155%;}
+  60%  {left: -40%; background: lightcoral; width: 160%;}
   65%  {left: -42%; background: orange; width: 162%;}
   70%  {left: -43%; background: yellow; width: 163%;}
   75%  {left: -45%; background: linen; width: 165%;}
-  80%  {left: -48%; background: black; width: 170%;}
-  85%  {left: -40%; background: darkgrey; width: 160%;}
-  90%  {left: -37%; background: grey; width: 160%;}
-  95%  {left: -35%; background: red; width: 160%;}
+  80%  {left: -48%; background: hotpink; width: 170%;}
+  85%  {left: -40%; background: plum; width: 160%;}
+  90%  {left: -37%; background: thistle; width: 160%;}
+  95%  {left: -35%; background: lightpink; width: 160%;}
   100% {left: -33%; background: white; width: 150%;}
 }
 
 .containerAnimate4 {
   width: auto;
   height: 9em;
-  font-family: Chivo;
-  font-size: .9em;
-  color: white;
+  font-family: Overpass;
+  font-size: 1.1em;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   background: white;
   position: relative;
   animation-name: animatedKox;
-  animation-duration: 60s;
+  animation-duration: 57s;
   animation-timing-function: linear;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -632,27 +632,27 @@ p {
 }
 
 @keyframes animatedKox {
-  0%   {left: -50%; background: green; width: 170%;}
-  3%   {left: -48%; background: blue; width: 170%;}
-  5%   {left: -46%; background: red; width: 165%;}
+  0%   {left: -50%; background: beige; width: 170%;}
+  3%   {left: -48%; background: peachpuff; width: 170%;}
+  5%   {left: -46%; background: pink; width: 165%;}
   10%  {left: -44%; background: white; width: 165%;}  
-  15%  {left: -41%; background: brown; width: 160%;}
-  20%  {left: -40%; background: black; width: 160%;}
-  25%  {left: -39%; background: purple; width: 160%;}
-  30%  {left: -37%; background: saddlebrown; width: 160%;}
+  15%  {left: -41%; background: blanchedalmond; width: 160%;}
+  20%  {left: -40%; background: ivory; width: 160%;}
+  25%  {left: -39%; background: linen; width: 160%;}
+  30%  {left: -37%; background: lightcoral; width: 160%;}
   35%  {left: -35%; background: sandybrown; width: 160%;}
-  40%  {left: -34%; background: slategrey; width: 155%;}
-  50%  {left: -32%; background: grey; width: 155%;}
-  55%  {left: -33%; background: darkgrey; width: 155%;}
-  58%  {left: -34%; background: darkgreen; width: 155%;}
-  62%  {left: -36%; background: darkblue; width: 160%;}
-  69%  {left: -37%; background: black; width: 160%;}
-  75%  {left: -44%; background: darkgrey; width: 170%;}
-  78%  {left: -46%; background: red; width: 170%;}
-  82%  {left: -48%; background: blue; width: 170%;}
-  87%  {left: -40%; background: red; color: white; width: 165%;}
-  90%  {left: -42%; background: darkgrey; width: 165%;}
-  93%  {left: -44%; background: grey; width: 165%;}
-  95%  {left: -46%; background: black; width: 170%;}
+  40%  {left: -34%; background: seashell; width: 155%;}
+  50%  {left: -32%; background: silver; width: 155%;}
+  55%  {left: -33%; background: yellowgreen; width: 155%;}
+  58%  {left: -34%; background: orange; width: 155%;}
+  62%  {left: -36%; background: lightcoral; width: 160%;}
+  69%  {left: -37%; background: indianred; width: 160%;}
+  75%  {left: -44%; background: plum; width: 170%;}
+  78%  {left: -46%; background: lightpink; width: 170%;}
+  82%  {left: -48%; background: cornsilk; width: 170%;}
+  87%  {left: -40%; background: tomato; width: 165%;}
+  90%  {left: -42%; background: coral; width: 165%;}
+  93%  {left: -44%; background: fuchsia; width: 165%;}
+  95%  {left: -46%; background: lightgrey; width: 170%;}
   100% {left: -48%; background: white; width: 170%;}
 }
