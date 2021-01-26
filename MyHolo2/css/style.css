@@ -504,28 +504,28 @@ p {
 }
 
 @keyframes animateKontaner {
-  0%   {left: -25%; background: white; width: 152%;}
-  3%   {left: -27%; background: linen; width: 174%;}
-  5%   {left: -25%; background: lightgrey; width: 170%;}
-  7%   {left: -20%; background: grey; width: 165%;}  
-  10%  {left: -28%; background: darkgrey; width: 152%;}
-  15%  {left: -35%; background: black; width: 145%;}
-  20%  {left: -40%; background: darkblue; width: 150%;}
-  25%  {left: -45%; background: blue; width: 155%;}
-  30%  {left: -38%; background: green; width: 152%;}
-  35%  {left: -37%; background: darkgreen; width: 153%}
-  40%  {left: -36%; background: red; width: 154%;}
-  45%  {left: -35%; background: darkred; width: 155%;}
-  50%  {left: -40%; background: navy; width: 150%;}
-  55%  {left: -50%; background: midnightblue; width: 150%;}
-  60%  {left: -55%; background: royalblue; width: 155%;}
-  65%  {left: -45%; background: slateblue; width: 145%;}
-  70%  {left: -50%; background: slategrey; width: 150%;}
+  0%   {left: -25%; background: white; width: 160%;}
+  3%   {left: -27%; background: linen; width: 160%;}
+  5%   {left: -25%; background: lightgrey; width: 160%;}
+  7%   {left: -24%; background: grey; width: 160%;}  
+  10%  {left: -28%; background: darkgrey; width: 160%;}
+  15%  {left: -35%; background: black; width: 160%;}
+  20%  {left: -40%; background: darkblue; width: 160%;}
+  25%  {left: -45%; background: blue; width: 160%;}
+  30%  {left: -38%; background: green; width: 160%;}
+  35%  {left: -37%; background: darkgreen; width: 160%}
+  40%  {left: -36%; background: red; width: 160%;}
+  45%  {left: -35%; background: darkred; width: 160%;}
+  50%  {left: -40%; background: navy; width: 160%;}
+  55%  {left: -50%; background: midnightblue; width: 160%;}
+  60%  {left: -55%; background: royalblue; width: 160%;}
+  65%  {left: -45%; background: slateblue; width: 160%;}
+  70%  {left: -50%; background: slategrey; width: 160%;}
   75%  {left: -48%; background: seagreen; width: 160%;}
-  80%  {left: -45%; background: green; width: 155%;}
+  80%  {left: -45%; background: green; width: 160%;}
   85%  {left: -35%; background: darkgreen; width: 160%;}
-  90%  {left: -30%; background: darkgrey; width: 155%;}
-  95%  {left: -28%; background: black; width: 155%;}
+  90%  {left: -30%; background: darkgrey; width: 160%;}
+  95%  {left: -28%; background: black; width: 160%;}
   100% {left: -25%; background: grey; width: 160%;}
 }
 
@@ -549,11 +549,11 @@ p {
 }
 
 @keyframes animatedBox {
-  0%   {left: -20%; background: red; width: 160%;}
+  0%   {left: -24%; background: red; width: 160%;}
   3%   {left: -25%; background: orangered; width: 160%;}
   5%   {left: -28%; background: olive; width: 160%;}
   7%   {left: -29%; background: olivedrab; width: 160%;}  
-  10%  {left: -21%; background: grey; width: 160%;}
+  10%  {left: -24%; background: grey; width: 160%;}
   15%  {left: -25%; background: darkgrey; width: 160%;}
   20%  {left: -30%; background: grey; width: 160%;}
   25%  {left: -40%; background: green; width: 160%;}
@@ -564,7 +564,7 @@ p {
   50%  {left: -25%; background: red; width: 160%;}
   55%  {left: -27%; background: darkred; width: 160%;}
   60%  {left: -25%; background: black; width: 160%;}
-  65%  {left: -23%; background: aliceblue; width: 160%;}
+  65%  {left: -24%; background: aliceblue; width: 160%;}
   70%  {left: -30%; background: green; width: 160%;}
   75%  {left: -33%; background: midnightblue; width: 160%;}
   80%  {left: -37%; background: navy; width: 160%;}
@@ -641,17 +641,17 @@ p {
 
 @keyframes animatedKox {
   0%   {left: -40%; background: green; width: 160%;}
-  3%   {left:-38%; background: blue; width: 160%;}
+  3%   {left: -38%; background: blue; width: 160%;}
   5%   {left: -36%; background: red; width: 160%;}
-  10%   {left: -34%; background: white; width: 160%;}  
+  10%  {left: -34%; background: white; width: 160%;}  
   15%  {left: -31%; background: brown; width: 160%;}
   20%  {left: -30%; background: black; width: 160%;}
   25%  {left: -29%; background: purple; width: 160%;}
   30%  {left: -27%; background: saddlebrown; width: 160%;}
   35%  {left: -25%; background: sandybrown; width: 160%;}
-  40%  {left: -23%; background: slategrey; width: 160%;}
-  50%  {left: -21%; background: grey; width: 160%;}
-  55%  {left: -22%; background: darkgrey; width: 160%;}
+  40%  {left: -24%; background: slategrey; width: 160%;}
+  50%  {left: -22%; background: grey; width: 160%;}
+  55%  {left: -23%; background: darkgrey; width: 160%;}
   58%  {left: -24%; background: darkgreen; width: 160%;}
   62%  {left: -26%; background: darkblue; width: 160%;}
   69%  {left: -27%; background: black; width: 160%;}
