@@ -4,17 +4,17 @@
 
 
 body {
-  font-family: Overpass;
+  font-family: Overpass, Verdana, sans-serif;
   color: #404042;
   font-size: 18px;
 }
 
 h2, h3, h4 {
-  font-family: Chivo;
+  font-family: Chivo, Helvetica, sans-serif;
 }
 
 h1 {
-  font-family: Rubik;
+  font-family: Rubik, Arial, sans-serif;
 }
 
 h2 {
@@ -177,6 +177,22 @@ p {
   padding: 4em 0;
 }
 
+.box6 {
+  background-size: cover;
+  background-position: center;
+  padding: 2em 0;
+}
+
+.box7 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  width: 50vw;
+  height: auto;
+  padding: 2em 0;
+}
+
 .banner {
   text-align: center;
 }
@@ -262,6 +278,12 @@ p {
 .container7 {
 }
 
+.container8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-holos {
   background-color: #B2B2B2;
   color: white;
@@ -291,12 +313,11 @@ p {
 
 
 .jumpto {
-  font-family: Chivo;
-  color: black;
+  text-decoration: none;
 }
 
 .jumpto:hover {
-  color: black;
+  text-decoration: underline black;
 }
 
 .flex-cards {
@@ -312,7 +333,7 @@ p {
 
 .card-white {
   background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  box-shadow: 0 0 16px rgba(0,0,0,0.05);
   border-radius: 4px;
   width: 300px;
   text-align: center;
@@ -320,9 +341,9 @@ p {
   margin: 8px;
 }
 
-.card-white img {
+.card-white > img {
   width: 200px;
-  height: 180px;
+  height: 150px;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -332,9 +353,40 @@ p {
   margin: .5em;
 }
 
+.container-me {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  margin: 2em 2em 6em 2em;
+}
+
+.container-me > div {
+  background: white;
+  border-radius: 4px;
+  margin: .5em;
+}
+
+.card-me {
+  display: relative;
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.05);
+  border-radius: 4px;
+  width: 20em;
+  text-align: center;
+  padding: 24px;
+}
+
+.responsiveImg {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .columns-n1 {
   background: #F96565;
-  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  box-shadow: 0 0 16px rgba(0,0,0,0.05);
   border-radius: 5px;
   padding-top: 2.5em;
   overflow: hidden;
@@ -356,8 +408,19 @@ p {
   color: #404042;
   font-size: 1.3em;
   background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  box-shadow: 0 0 16px rgba(0,0,0,0.05);
   border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  justify-content: initial;
+  padding: .7em;
+}
+
+.columns2-next3 {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 1.3em;
+  background: white;
   width: 100%;
   text-align: center;
   justify-content: initial;
@@ -375,24 +438,15 @@ p {
 .footer-allP {
   background-color: #B2B2B2;
   width: 100%;
+  font-family: Chivo;
+  font-size: .8em;
   color: white;
   text-align: center;
   text-decoration: none;
-  transition: .3s;
 }
 
 .footer-allP:hoover {
-  color: white;
-}
-
-.footer-impress {
-  font-family: Chivo;
-  font-size: 0.8em;
-  color: white;
-}
-
-.footer-impress:hoover {
-  color: white;
+  text-decoration: underline;
 }
 
   
@@ -460,13 +514,24 @@ p {
     max-width: 100%;
     height: auto;
   }
+
+  .container8 {
+    max-width: 60em;
+    height: auto;
+  }
+
+  .container-me {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
   .flex-cards {
-  display: flex;
-  flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
   }
   .columns-next2 {
-  display: flex;
-  flex-flow: row wrap; 
+    display: flex;
+    flex-flow: row wrap; 
   }  
   .banner h1 {
     font-size: 3.5em;
@@ -496,13 +561,17 @@ p {
     max-width: 100%;
     height: auto;
   }
+   .container-me {
+    display: flex;
+    flex-flow: row wrap;
+  }
   .flex-cards {
-  display: flex;
-  flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
   }
   .columns-next2 {
-  display: flex;
-  flex-flow: wrap; 
+    display: flex;
+    flex-flow: wrap; 
   }
   .banner h1 {
     font-size: 3em;
