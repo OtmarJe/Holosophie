@@ -469,7 +469,7 @@ p {
   flex-flow: row wrap; 
   }  
   .banner h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     padding: 0;
   }
   .banner h2 {
@@ -505,7 +505,7 @@ p {
   flex-flow: wrap; 
   }
   .banner h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0;
   }
   .banner h2 {
