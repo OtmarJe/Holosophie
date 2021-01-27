@@ -346,6 +346,12 @@ p {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .container1 {
+    margin: 1em;
+  }
+  .container2 {
+    margin: 1em;
+  }
   .container3 {
     max-width: 60em;
     height: auto;
@@ -373,6 +379,12 @@ p {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  .container1 {
+    margin: 0.3em;
+  }
+  .container2 {
+    margin: 0.3em;
+  }
   .container3 {
     max-width: 40em;
     height: auto;
