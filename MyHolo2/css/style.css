@@ -152,8 +152,11 @@ p {
 }
 
 .box2 {
-  margin-bottom: 3em;
-  margin-top: 4em;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0em;
+  margin-top: 5em;
 }
 
 .box3 {
@@ -480,6 +483,12 @@ p {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  .container1 {
+    margin: 1.6em;
+  }
+  .container2 {
+    margin: 1.6em;
+  }
   .container3 {
     max-width: 70em;
     height: auto;
@@ -503,10 +512,10 @@ p {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .container1 {
-    margin: 1em;
+    margin: 1.3em;
   }
   .container2 {
-    margin: 1em;
+    margin: 1.3em;
   }
   .container3 {
     max-width: 60em;
@@ -525,6 +534,10 @@ p {
   .container-me {
     display: flex;
     flex-flow: row wrap;
+  }
+  .box2 {
+    margin-bottom: 0em;
+    margin-top: 2em;
   }
 
   .flex-cards {
@@ -550,10 +563,10 @@ p {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .container1 {
-    margin: 0.3em;
+    margin: 1.2em;
   }
   .container2 {
-    margin: 0.3em;
+    margin: 1.2em;
   }
   .container3 {
     max-width: 40em;
@@ -566,6 +579,10 @@ p {
    .container-me {
     display: flex;
     flex-flow: row wrap;
+  }
+  .box2 {
+    margin-bottom: 0em;
+    margin-top: .5em;
   }
   .flex-cards {
     display: flex;
@@ -629,74 +646,75 @@ p {
 /* Box Animation */
 
 .containerAnimate {
+  display: table-cell;
   width: 100%;
-  height: 7em;
+  height: 9em;
   font-family: Chivo;
-  font-size: 0.9em;
+  font-size: 1em;
   color: white;
-  padding-top: 2em;
-  padding-bottom: 1em;
+  vertical-align: middle;
   text-align: center;
-  justify-content: center;
+  padding-left: 1em;
+  padding-right: 1em;
   background: white;
   position: relative;
   animation-name: animateContainer;
-  animation-duration: 75s;
+  animation-duration: 150s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
 }
 
 @keyframes animateContainer {
-  0%   {left: 0%; background: sienna; width: 100%;}
-  1%   {left: 0%; background: sandybrown; width: 100%;}
-  2%   {left: 0%; background: sienna; width: 100%;}  
-  3%   {left: 0%; background: peru; width: 100%;}
-  4%   {left: 0%; background: maroon; width: 100%;}
-  5%   {left: 0%; background: darkblue; width: 100%;}
-  6%   {left: 0%; background: darkblue; width: 100%;}
-  7%   {left: 0%; background: blue; width: 100%;}
-  8%   {left: 0%; background: mediumpurple; width: 100%;}
-  9%   {left: 0%; background: blueviolet; width: 100%;}   
-  10%  {left: 0%; background: darkred width: 100%;}
-  11%  {left: 0%; background: darkmagenta width: 100%;}
-  12%  {left: 0%; background: darkred width: 100%;}
-  13%  {left: 0%; background: deeppink width: 100%;}
-  15%  {left: 0%; background: red; width: 100%;}
-  17%  {left: 0%; background: green; width: 100%;}
-  20%  {left: 0%; background: darkred width: 100%;}
-  22%  {left: 0%; background: darkmagenta width: 100%;}
-  25%  {left: 0%; background: darkgreen; width: 100%;}
-  27%  {left: 0%; background: navy; width: 100%;}
-  30%  {left: 0%; background: #F96565; width: 100%;}
-  33%  {left: 0%; background: #F96565; width: 100%;}
-  35%  {left: 0%; background: red; width: 100%;}
-  37%  {left: 0%; background: deeppink; width: 100%;}
-  40%  {left: 0%; background: darkred; width: 100%;}
-  42%  {left: 0%; background: darkmagenta; width: 100%;}
-  45%  {left: 0%; background: red; width: 100%;}
-  47%  {left: 0%; background: deeppink; width: 100%;}
-  50%  {left: 0%; background: brown; width: 100%;}
-  53%  {left: 0%; background: brown; width: 100%;}
-  55%  {left: 0%; background: saddlebrown; width: 100%;}
-  57%  {left: 0%; background: saddlebrown; width: 100%;}
-  60%  {left: 0%; background: indianred; width: 100%;}
-  63%  {left: 0%; background: indianred; width: 100%;}
-  65%  {left: 0%; background: crimson; width: 100%;}
-  67%  {left: 0%; background: salmon ; width: 100%;}
-  70%  {left: 0%; background: purple; width: 100%;}
-  73%  {left: 0%; background: purple; width: 100%;}
-  75%  {left: 0%; background: deeppink; width: 100%;}
-  77%  {left: 0%; background: deeppink; width: 100%;}
-  80%  {left: 0%; background: khaki; width: 100%;}
-  82%  {left: 0%; background: khaki; width: 100%;}
-  85%  {left: 0%; background: slategrey; width: 100%;}
-  87%  {left: 0%; background: slategrey; width: 100%;}
-  90%  {left: 0%; background: #F96565; width: 100%;}
-  92%  {left: 0%; background: #F96565; width: 100%;}
-  95%  {left: 0%; background: lightyellow; width: 100%;}
-  97%  {left: 0%; background: #F96565; width: 100%;}
-  100% {left: 0%; background: white; width: 100%;}
+  0%   {left: 0%; background: white; width: 100%;}
+  1%   {left: 0%; background: #ffffff; width: 100%;}
+  2%   {left: 0%; background: #ffffff; width: 100%;}  
+  3%   {left: 0%; background: antiquewhite; width: 100%;}
+  4%   {left: 0%; background: #e6e6e6; width: 100%;}
+  5%   {left: 0%; background: #f2f2f2; width: 100%;}
+  6%   {left: 0%; background: lightpink; width: 100%;}
+  7%   {left: 0%; background: #8c8c8c; width: 100%;}
+  8%   {left: 0%; background: #bfbfbf; width: 100%;}
+  9%   {left: 0%; background: #a6a6a6; width: 100%;}   
+  10%  {left: 0%; background: #808080; width: 100%;}
+  11%  {left: 0%; background: #bfbfbf; width: 100%;}
+  12%  {left: 0%; background: antiquewhite; width: 100%;}
+  13%  {left: 0%; background: #8c8c8c; width: 100%;}
+  15%  {left: 0%; background: blanchedalmond; width: 100%;}
+  17%  {left: 0%; background: #a6a6a6; width: 100%;}
+  20%  {left: 0%; background: lightcoral; width: 100%;}
+  22%  {left: 0%; background: #bfbfbf; width: 100%;}
+  25%  {left: 0%; background: #999999; width: 100%;}
+  27%  {left: 0%; background: #737373; width: 100%;}
+  30%  {left: 0%; background: #b3b3b3; width: 100%;}
+  33%  {left: 0%; background: #b3b3b3; width: 100%;}
+  35%  {left: 0%; background: #d9d9d9; width: 100%;}
+  37%  {left: 0%; background: #f2f2f2; width: 100%;}
+  40%  {left: 0%; background: #ffffff; width: 100%;}
+  42%  {left: 0%; background: #bfbfbf; width: 100%;}
+  45%  {left: 0%; background: #d9d9d9; width: 100%;}
+  47%  {left: 0%; background: #f2f2f2; width: 100%;}
+  50%  {left: 0%; background: #cccccc; width: 100%;}
+  53%  {left: 0%; background: #b3b3b3; width: 100%;}
+  55%  {left: 0%; background: cornsilk; width: 100%;}
+  57%  {left: 0%; background: #a6a6a6; width: 100%;}
+  60%  {left: 0%; background: #808080; width: 100%;}
+  63%  {left: 0%; background: #a6a6a6; width: 100%;}
+  65%  {left: 0%; background: #bfbfbf; width: 100%;}
+  67%  {left: 0%; background: #d9d9d9; width: 100%;}
+  70%  {left: 0%; background: #f2f2f2; width: 100%;}
+  73%  {left: 0%; background: #F96565; width: 100%;}
+  75%  {left: 0%; background: #F96565; width: 100%;}
+  77%  {left: 0%; background: #d9d9d9; width: 100%;}
+  80%  {left: 0%; background: beige; width: 100%;}
+  82%  {left: 0%; background: #a6a6a6; width: 100%;}
+  85%  {left: 0%; background: #999999; width: 100%;}
+  87%  {left: 0%; background: #8c8c8c; width: 100%;}
+  90%  {left: 0%; background: antiquewhite; width: 100%;}
+  92%  {left: 0%; background: #808080; width: 100%;}
+  95%  {left: 0%; background: #8c8c8c; width: 100%;}
+  97%  {left: 0%; background: #e6e6e6; width: 100%;}
+  100% {left: 0%; background: #ffffff; width: 100%;}
 }
 
 
