@@ -89,7 +89,7 @@ h4 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: silver;
+  background-color: red;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -266,8 +266,10 @@ p {
   display: block;
   width: auto;
   height: 50em;
-  padding: 1em;
-  margin: 1em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  margin-top: 1em;
+  margin-bottom: 0em;
 
 }
 
@@ -387,7 +389,6 @@ p {
 .columns-n1 {
   background: #F96565;
   box-shadow: 0 0 16px rgba(0,0,0,0.05);
-  border-radius: 5px;
   padding-top: 2.5em;
   overflow: hidden;
 }
@@ -446,6 +447,7 @@ p {
 }
 
 .footer-allP:hoover {
+  color: red;
   text-decoration: underline;
 }
 
