@@ -627,6 +627,11 @@ p {
   to {width: 100%;}
 }
 
+/* Start text shadow */
+
+/* Shadow Animation */
+
+
 .shadow {
   animation: text-shadow 33s infinite alternate;
   padding-top: 1em;
@@ -635,17 +640,23 @@ p {
 
 @keyframes text-shadow {
   0% {text-shadow: 1px 1px 0px #333}
-  2% {text-shadow: 1px 2px 0px #333}
-  5% {text-shadow: 1px 2px 1px #333}
-  7% {text-shadow: 2px 2px 2px #333}
+  2% {text-shadow: 1.5px 1px 0.5px #333}
+  5% {text-shadow: 2px 2px 1px #333}
+  7% {text-shadow: 2.4px 2.4px 1.3px #333}
+  9% {text-shadow: 2.7px 2.7px 1.7px #333}
   10% {text-shadow: 3px 3px 2px #333}
-  15% {text-shadow: 5px 4px 3px #444}
-  17% {text-shadow: 7px 5px 2px #555}
-  20% {text-shadow: 9px 10px 6px #999}
-  40% {text-shadow: 10px 13px 6px #bbb}
+  13% {text-shadow: 5px 4.5px 3px #333}
+  17% {text-shadow: 7px 8px 5px #333}
+  20% {text-shadow: 8px 10px 6px #999}
+  25% {text-shadow: 9.1px 10.5px 6px #999}
+  30% {text-shadow: 9.3px 11px 6px #999}
+  35% {text-shadow: 9.7px 12.5px 6px #999}
+  40% {text-shadow: 10px 13px 6px #ccc}
+  50% {text-shadow: 8px 11.5px 5px #ccc}  
   60% {text-shadow: 6px 10px 4px #ccc}
+  70% {text-shadow: 4px 9px 3.5px #ccc}  
   80% {text-shadow: 2px 8px 3px #ccc}
-  90% {text-shadow: 2px 7px 2px #ccc}
+  90% {text-shadow: 1.5px 6.5px 2px #eee}
   100% {text-shadow: 1px 5px 1px #eee}
 }
 
