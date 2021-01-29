@@ -6,6 +6,7 @@
 body {
   font-family: Overpass, Verdana, sans-serif;
   color: #404042;
+  background-color: white;
   font-size: 18px;
 }
 
@@ -35,7 +36,7 @@ h3 {
 
 h4 {
   font-size: 1.2em;
-  color: 404042;
+  color: #404042;
   padding-bottom: 1.8em;
   text-align: center;
 }
@@ -98,7 +99,7 @@ h4 {
 }
 
 
-/* my home btn */
+/* my home btn - not in use*/
 
 .homeBtn {
   color: white !important;
@@ -201,15 +202,15 @@ p {
 }
 
 .banner h1 {
-  color: white;
-  font-size: 8em;
+  color:  white;
+  font-size: 9vw;
   margin: 0;
 }
 
 .banner h2 {
   color: #404042;
   opacity: .7;
-  font-size: 3em;
+  font-size: 3vw;
   font-weight: lighter;
   margin-top: 24px;
   margin-bottom: 45px;
@@ -642,8 +643,8 @@ p {
   0% {text-shadow: 1px 1px 0px #ccc}
   2% {text-shadow: 1.5px 1px 0.5px #ccc}
   5% {text-shadow: 2px 2px 1px #ccc}
-  7% {text-shadow: 2.4px 2.4px 1.3px #111}
-  9% {text-shadow: 2.7px 2.7px 1.7px #222}
+  7% {text-shadow: 2.4px 2.4px 1.3px #333}
+  9% {text-shadow: 2.7px 2.7px 1.7px #333}
   10% {text-shadow: 3px 3px 2px #333}
   13% {text-shadow: 5px 4.5px 3px #333}
   17% {text-shadow: 7px 8px 5px #333}
