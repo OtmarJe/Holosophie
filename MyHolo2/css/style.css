@@ -659,7 +659,7 @@ p {
   background: white;
   position: relative;
   animation-name: animateContainer;
-  animation-duration: 150s;
+  animation-duration: 70s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
@@ -667,54 +667,54 @@ p {
 
 @keyframes animateContainer {
   0%   {left: 0%; background: white; width: 100%;}
-  1%   {left: 0%; background: #ffffff; width: 100%;}
-  2%   {left: 0%; background: #ffffff; width: 100%;}  
-  3%   {left: 0%; background: antiquewhite; width: 100%;}
-  4%   {left: 0%; background: #e6e6e6; width: 100%;}
-  5%   {left: 0%; background: #f2f2f2; width: 100%;}
-  6%   {left: 0%; background: lightpink; width: 100%;}
-  7%   {left: 0%; background: #8c8c8c; width: 100%;}
-  8%   {left: 0%; background: #bfbfbf; width: 100%;}
-  9%   {left: 0%; background: #a6a6a6; width: 100%;}   
-  10%  {left: 0%; background: #808080; width: 100%;}
-  11%  {left: 0%; background: #bfbfbf; width: 100%;}
-  12%  {left: 0%; background: antiquewhite; width: 100%;}
+  1%   {left: 0%; background: #f2f2f2; width: 100%;}
+  2%   {left: 0%; background: #e6e6e6; width: 100%;}  
+  3%   {left: 0%; background: #e6e6e6; width: 100%;}
+  4%   {left: 0%; background: #d9d9d9; width: 100%;}
+  5%   {left: 0%; background: #cccccc; width: 100%;}
+  6%   {left: 0%; background: #bfbfbf; width: 100%;}
+  7%   {left: 0%; background: #b3b3b3; width: 100%;}
+  8%   {left: 0%; background: #a6a6a6; width: 100%;}
+  9%   {left: 0%; background: #999999; width: 100%;}   
+  10%  {left: 0%; background: #999999; width: 100%;}
+  11%  {left: 0%; background: #8c8c8c; width: 100%;}
+  12%  {left: 0%; background: #8c8c8c; width: 100%;}
   13%  {left: 0%; background: #8c8c8c; width: 100%;}
-  15%  {left: 0%; background: blanchedalmond; width: 100%;}
-  17%  {left: 0%; background: #a6a6a6; width: 100%;}
-  20%  {left: 0%; background: lightcoral; width: 100%;}
-  22%  {left: 0%; background: #bfbfbf; width: 100%;}
-  25%  {left: 0%; background: #999999; width: 100%;}
-  27%  {left: 0%; background: #737373; width: 100%;}
-  30%  {left: 0%; background: #b3b3b3; width: 100%;}
-  33%  {left: 0%; background: #b3b3b3; width: 100%;}
-  35%  {left: 0%; background: #d9d9d9; width: 100%;}
-  37%  {left: 0%; background: #f2f2f2; width: 100%;}
-  40%  {left: 0%; background: #ffffff; width: 100%;}
-  42%  {left: 0%; background: #bfbfbf; width: 100%;}
-  45%  {left: 0%; background: #d9d9d9; width: 100%;}
-  47%  {left: 0%; background: #f2f2f2; width: 100%;}
-  50%  {left: 0%; background: #cccccc; width: 100%;}
-  53%  {left: 0%; background: #b3b3b3; width: 100%;}
-  55%  {left: 0%; background: cornsilk; width: 100%;}
-  57%  {left: 0%; background: #a6a6a6; width: 100%;}
-  60%  {left: 0%; background: #808080; width: 100%;}
-  63%  {left: 0%; background: #a6a6a6; width: 100%;}
-  65%  {left: 0%; background: #bfbfbf; width: 100%;}
-  67%  {left: 0%; background: #d9d9d9; width: 100%;}
-  70%  {left: 0%; background: #f2f2f2; width: 100%;}
-  73%  {left: 0%; background: #F96565; width: 100%;}
+  15%  {left: 0%; background: #808080; width: 100%;}
+  17%  {left: 0%; background: #808080; width: 100%;}
+  20%  {left: 0%; background: #737373; width: 100%;}
+  22%  {left: 0%; background: #737373; width: 100%;}
+  25%  {left: 0%; background: #666666; width: 100%;}
+  27%  {left: 0%; background: #666666; width: 100%;}
+  30%  {left: 0%; background: #595959; width: 100%;}
+  33%  {left: 0%; background: #595959; width: 100%;}
+  35%  {left: 0%; background: #4d4d4d; width: 100%;}
+  37%  {left: 0%; background: #404040; width: 100%;}
+  40%  {left: 0%; background: #404040; width: 100%;}
+  42%  {left: 0%; background: #660022; width: 100%;}
+  45%  {left: 0%; background: #602020; width: 100%;}
+  47%  {left: 0%; background: #602020; width: 100%;}
+  50%  {left: 0%; background: #802000; width: 100%;}
+  53%  {left: 0%; background: #992600; width: 100%;}
+  55%  {left: 0%; background: #992600; width: 100%;}
+  57%  {left: 0%; background: #99004d; width: 100%;}
+  60%  {left: 0%; background: #800040; width: 100%;}
+  63%  {left: 0%; background: #73264d; width: 100%;}
+  65%  {left: 0%; background: #993d00; width: 100%;}
+  67%  {left: 0%; background: #803300; width: 100%;}
+  70%  {left: 0%; background: #dc0909; width: 100%;}
+  73%  {left: 0%; background: #f62323; width: 100%;}
   75%  {left: 0%; background: #F96565; width: 100%;}
-  77%  {left: 0%; background: #d9d9d9; width: 100%;}
-  80%  {left: 0%; background: beige; width: 100%;}
-  82%  {left: 0%; background: #a6a6a6; width: 100%;}
-  85%  {left: 0%; background: #999999; width: 100%;}
-  87%  {left: 0%; background: #8c8c8c; width: 100%;}
-  90%  {left: 0%; background: antiquewhite; width: 100%;}
-  92%  {left: 0%; background: #808080; width: 100%;}
-  95%  {left: 0%; background: #8c8c8c; width: 100%;}
-  97%  {left: 0%; background: #e6e6e6; width: 100%;}
-  100% {left: 0%; background: #ffffff; width: 100%;}
+  77%  {left: 0%; background: #999999; width: 100%;}
+  80%  {left: 0%; background: #a6a6a6; width: 100%;}
+  82%  {left: 0%; background: #b3b3b3; width: 100%;}
+  85%  {left: 0%; background: #bfbfbf; width: 100%;}
+  87%  {left: 0%; background: #cccccc; width: 100%;}
+  90%  {left: 0%; background: #d9d9d9; width: 100%;}
+  92%  {left: 0%; background: #e6e6e6; width: 100%;}
+  95%  {left: 0%; background: #f2f2f2; width: 100%;}
+  97%  {left: 0%; background: #ffffff; width: 100%;}
+  100% {left: 0%; background: white; width: 100%;}
 }
 
 
