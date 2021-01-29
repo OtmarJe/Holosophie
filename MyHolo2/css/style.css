@@ -645,7 +645,7 @@ p {
   40% {text-shadow: 10px 13px 6px #bbb}
   60% {text-shadow: 6px 10px 4px #ccc}
   80% {text-shadow: 2px 8px 3px #ccc}
-  90% {text-shadow: 2px 7px 2px #ddd}
+  90% {text-shadow: 2px 7px 2px #ccc}
   100% {text-shadow: 1px 5px 1px #eee}
 }
 
