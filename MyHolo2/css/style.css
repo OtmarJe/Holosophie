@@ -633,17 +633,17 @@ p {
 
 
 .shadow {
-  animation: text-shadow 33s infinite alternate;
+  animation: text-shadow 23s infinite alternate;
   padding-top: 1em;
   padding-bottom: 2em;
 }
 
 @keyframes text-shadow {
-  0% {text-shadow: 1px 1px 0px #333}
-  2% {text-shadow: 1.5px 1px 0.5px #333}
-  5% {text-shadow: 2px 2px 1px #333}
-  7% {text-shadow: 2.4px 2.4px 1.3px #333}
-  9% {text-shadow: 2.7px 2.7px 1.7px #333}
+  0% {text-shadow: 1px 1px 0px #ccc}
+  2% {text-shadow: 1.5px 1px 0.5px #ccc}
+  5% {text-shadow: 2px 2px 1px #ccc}
+  7% {text-shadow: 2.4px 2.4px 1.3px #111}
+  9% {text-shadow: 2.7px 2.7px 1.7px #222}
   10% {text-shadow: 3px 3px 2px #333}
   13% {text-shadow: 5px 4.5px 3px #333}
   17% {text-shadow: 7px 8px 5px #333}
