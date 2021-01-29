@@ -628,18 +628,24 @@ p {
 }
 
 .shadow {
-  animation: text-shadow 13s infinite alternate;
+  animation: text-shadow 33s infinite alternate;
   padding-top: 1em;
   padding-bottom: 2em;
 }
 
 @keyframes text-shadow {
   0% {text-shadow: 1px 1px 0px #333}
+  2% {text-shadow: 1px 2px 0px #333}
+  5% {text-shadow: 1px 2px 1px #333}
+  7% {text-shadow: 2px 2px 2px #333}
   10% {text-shadow: 3px 3px 2px #333}
+  15% {text-shadow: 5px 4px 3px #444}
+  17% {text-shadow: 7px 5px 2px #555}
   20% {text-shadow: 9px 10px 6px #999}
-  40% {text-shadow: 10px 13px 6px #ccc}
+  40% {text-shadow: 10px 13px 6px #bbb}
   60% {text-shadow: 6px 10px 4px #ccc}
   80% {text-shadow: 2px 8px 3px #ccc}
+  90% {text-shadow: 2px 7px 2px #ddd}
   100% {text-shadow: 1px 5px 1px #eee}
 }
 
