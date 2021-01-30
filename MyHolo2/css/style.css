@@ -711,7 +711,7 @@ p {
   background: white;
   position: relative;
   animation-name: animateContainer;
-  animation-duration: 70s;
+  animation-duration: 23s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
