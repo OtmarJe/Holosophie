@@ -84,7 +84,7 @@ main > div {
   background-color: none;
   border-radius: 8px;
   min-width: 3em;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
   z-index: 1;
 }
 
@@ -355,11 +355,11 @@ p {
 
 .card-white {
   background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.05);
-  border-radius: 4px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 5px;
   width: 300px;
   text-align: center;
-  padding: 24px;
+  padding: 34px 26px 26px 26px;
   margin: 8px;
 }
 
@@ -372,7 +372,7 @@ p {
 
 .card-white h3 {
   font-size: 1.1em;
-  margin: .5em;
+  margin: .8em;
 }
 
 .container-me {
@@ -391,7 +391,7 @@ p {
 .card-me {
   display: relative;
   background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.05);
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 20em;
   text-align: center;
@@ -408,7 +408,7 @@ p {
 
 .columns-n1 {
   background: #F96565;
-  box-shadow: 0 0 16px rgba(0,0,0,0.05);
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
   padding-top: 2.5em;
   overflow: hidden;
 }
@@ -429,7 +429,7 @@ p {
   color: #404042;
   font-size: 1.3em;
   background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.05);
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 100%;
   text-align: left;
