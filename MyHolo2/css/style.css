@@ -357,15 +357,15 @@ p {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 5px;
-  width: 300px;
+  width: 20em;
   text-align: center;
-  padding: 34px 26px 26px 26px;
+  padding: 34px 26px 16px 26px;
   margin: 8px;
 }
 
 .card-white > img {
-  width: 200px;
-  height: 150px;
+  width: 15em;
+  height: 15em;
   object-fit: cover;
   border-radius: 4px;
 }
