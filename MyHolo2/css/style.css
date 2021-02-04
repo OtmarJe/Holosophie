@@ -626,7 +626,7 @@ p {
     margin-bottom: 0em;
     margin-top: .5em;
   }
-    .box6 {
+  .box6 {
     background-size: cover;
     background-position: center;
     padding: .5em 0;
@@ -638,6 +638,15 @@ p {
   .flex-cards {
     display: flex;
     flex-flow: row wrap;
+  }
+  .card-me {
+    width: 100%;
+    padding: 20px;
+  }
+  .box7 {
+    width: 98%;
+    height: auto;
+    padding: 0;
   }
   .columns-next2 {
     display: flex;
