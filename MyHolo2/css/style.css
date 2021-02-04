@@ -37,14 +37,14 @@ h3 {
 h4 {
   font-size: 1.2em;
   color: #404042;
-  padding-bottom: 1.8em;
+  padding-bottom: 1.2em;
   text-align: center;
 }
 
 header {
   position: sticky !important;
   top: 0;
-  z-index: 1;
+  z-index: 9;
 }
 
 main {
@@ -237,6 +237,17 @@ p {
   font-size: 24px;
 }
 
+.wholething {
+  position: relative;
+  justify-content: center;
+  width: auto;
+}
+
+.container {
+  
+ }
+
+
 .container0 {
   display: flex;
   justify-content: center;
@@ -375,6 +386,24 @@ p {
   margin: .8em;
 }
 
+.card-whiteP4 {
+  display: inline-flex;
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: auto;
+  text-align: left;
+  padding: 26px 26px 26px 20px;
+  margin: 1em;
+}
+
+.card-whiteP4 h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-right: .4em;
+  text-align: center;
+}
+
 .container-me {
   display: flex;
   justify-content: center;
@@ -453,6 +482,16 @@ p {
   text-align: center;
   justify-content: initial;
   padding: .7em;
+}
+
+.row-content {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 20em;
+  text-align: left;
+  padding: 34px 26px 16px 26px;
+  margin: 8px; 
 }
 
 .footer {
@@ -978,3 +1017,13 @@ p {
   95%  {left: -4%; background: lightgrey; width: 105%;}
   100% {left: -5%; background: white; width: 106%;}
 }
+
+
+.move-anim {
+   -webkit-transition: all 0.5s ease !important;
+   -moz-transition: all 0.5s ease !important;
+   -o-transition: all 0.5s ease !important;
+   transition: all 0.5s ease !important;
+}
+
+
