@@ -243,9 +243,8 @@ p {
   width: auto;
 }
 
-.container {
-  
- }
+.container {  
+}
 
 
 .container0 {
@@ -394,14 +393,21 @@ p {
   width: auto;
   text-align: left;
   padding: 26px 26px 26px 20px;
-  margin: 1em;
+  margin-bottom: 1em;
 }
 
-.card-whiteP4 h4 {
+.card-whiteP4 > h4 {
   font-size: 1.2em;
-  color: black;
+  color: #B2B2B2;
   margin-right: .4em;
   text-align: center;
+}
+
+.card-whiteP4 > p {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  margin: .8em;
 }
 
 .container-me {
