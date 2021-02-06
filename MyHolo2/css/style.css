@@ -85,7 +85,6 @@ main > div {
   border-radius: 8px;
   min-width: 3em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
-  z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -112,6 +111,45 @@ main > div {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #566573;
+}
+
+/* my move on btn */
+
+.btn-holos {
+  background-color: #B2B2B2;
+  color: white;
+  width: 190px;
+  padding: 50px;
+  border-radius: 140px 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn-holos:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-impress {
+  font-family: Chivo;
+  font-size: .8em;
+  color: white;
+}
+
+.btn-impress:hover {
+  color: grey;
+}
+
+/* jump-Funktion für H1 bei next1 */
+
+.jumpto {
+  text-decoration: none;
+}
+
+.jumpto:hover {
+  text-decoration: underline black;
 }
 
 
@@ -246,7 +284,6 @@ p {
 .container {  
 }
 
-
 .container0 {
   display: flex;
   justify-content: center;
@@ -321,42 +358,6 @@ p {
   max-height: auto;
   overflow: hidden;
   z-index: 0;
-}
-
-.btn-holos {
-  background-color: #B2B2B2;
-  color: white;
-  width: 190px;
-  padding: 50px;
-  border-radius: 140px 20px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  transition: .3s;
-}
-
-.btn-holos:hover {
-  background-color: red;
-  color: white;
-}
-
-.btn-impress {
-  font-family: Chivo;
-  font-size: .8em;
-  color: white;
-}
-
-.btn-impress:hover {
-  color: grey;
-}
-
-
-.jumpto {
-  text-decoration: none;
-}
-
-.jumpto:hover {
-  text-decoration: underline black;
 }
 
 .flex-cards {
