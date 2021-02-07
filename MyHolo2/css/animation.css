@@ -21,7 +21,17 @@
   to {width: 100%;}
 }
 
-/* Start text shadow */
+/* Start Grid-Anima */
+
+.wrapGrid {
+  animation-name: wrapGrid 20s steps(12) forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wrapGrid {
+  from {object-position: 1;}
+  to {object-position: 12}
+}
 
 /* Shadow Animation */
 

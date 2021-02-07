@@ -10,7 +10,7 @@ body {
   font-size: 18px;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5, h6 {
   font-family: Chivo, Helvetica, sans-serif;
 }
 
@@ -90,6 +90,7 @@ main > div {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
+  font-size: .8em;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
@@ -550,9 +551,7 @@ p {
   max-width: 90%;
   height: auto;
   margin: 1em;
-  animation: none;
 }
-
 
 .item {
   background: white;
@@ -560,37 +559,34 @@ p {
   border-radius: 5px;
   width: auto;
   text-align: left;
-  padding: 22px 22px 2px 22px;
+  padding: 25px;
   margin: .5em;
 }
 
-.item > p {
+.item > h6 {
   display: flex;
+  font-family: Overpass, Verdana, sans-serif;
   font-size: 1em;
-  font-weight: bolder;
-  color: black;
+  font-weight: bold;
+  line-height: 140%;
+  color: ghostwhite;
   text-align: left;
 }
 
-.item > h4 {
-  font-size: .8em;
-  color: dimgray;
-  margin-left: .4em;
-  text-align: right;
-}
 
-#soc {background-color: azure;}
-#try {background-color: lightblue;}
-#rela {background-color: gold;}
-#rig {background-color: lightpink;}
-#tak {background-color: peachpuff;}
-#mor {background-color: cadetblue;}
-#age {background-color: salmon;}
-#core {background-color: khaki;}
-#inla {background-color: #F96565;}
-#holi {background-color: orange;}
-#tod {background-color: plum;}
-#larg {background-color: wheat;}
+
+#soc {background-color: slateblue;}
+#try {background-color: olive;}
+#rela {background-color: purple;}
+#rig {background-color: steelblue;}
+#tak {background-color: firebrick;}
+#mor {background-color: navy;}
+#age {background-color: darkslategray;}
+#core {background-color: sienna;}
+#inla {background-color: blue;}
+#holi {background-color: darkorange;}
+#tod {background-color: palevioletred;}
+#larg {background-color: green;}
 
 
  
