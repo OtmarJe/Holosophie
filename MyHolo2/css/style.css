@@ -950,7 +950,7 @@ p {
     padding: 0;
   }
   .box7 > p {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   .columns-next2 {
@@ -959,11 +959,11 @@ p {
   }
 
   .columns2-next2 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .columns2-next2 p {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   .banner > h1 {
