@@ -16,16 +16,37 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   text-transform: Uppercase;
-  font-family: Kodchasan, sans-serif;
+  font-family: Rubik, sans-serif;
   margin-bottom: .5em;
-  font-size: 4em;
+  font-size: 3.5em;
   color: white;
   align-items: center;
+  text-transform: capitalize;
   text-shadow: -1.4px 1.4px 0 #000,
                 1.4px 1.4px 0 #000,
                 1.4px -1.4px 0 #000,
                -1.4px -1.4px 0 #000;
 
+}
+
+#Hoops {
+  font-size: 131%;
+}
+
+#Oops {
+  font-size: 120%;
+}
+
+#Poos {
+  font-size: 115%;
+}
+
+#Noops {
+  font-size: 130%;
+}
+
+#Woops {
+  font-size: 125%;
 }
 
 /* dropdown 
@@ -728,7 +749,7 @@ p {
     height: auto;
   }
   .banner > h1 {
-    font-size: 3.7em;;
+    font-size: 3.4em;;
     padding: 30px 0;
   }
   .banner h2 {
@@ -810,7 +831,7 @@ p {
     flex-flow: row wrap;
   }
 
-   .card-me {
+  .card-me {
     width: 100%;
     padding: 20px;
   }
@@ -941,7 +962,7 @@ p {
   }
 
   .banner > h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     margin: 0;
   }
