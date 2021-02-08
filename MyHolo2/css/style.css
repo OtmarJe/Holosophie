@@ -34,7 +34,12 @@ h1 {
 }
 
 #Oops {
-  font-size: 120%;
+  font-size: 146%;
+  vertical-align: sub;
+  text-shadow: -1.2px 1.2px 0 #000,
+                1.2px 1.2px 0 #000,
+                1px -1px 0 #000,
+               -1.2px -1.2px 0 #000;
 }
 
 #Poos {
