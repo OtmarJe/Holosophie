@@ -69,14 +69,14 @@
 .containerAnimate {
   display: table-cell;
   width: 100%;
-  height: 9em;
+  height: 9rem;
   font-family: Chivo;
-  font-size: 1em;
+  font-size: .9rem;
   color: white;
   vertical-align: middle;
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background: white;
   position: relative;
   animation-name: animateContainer;
@@ -141,10 +141,10 @@
 
 .containerAnimate1 {
   width: auto;
-  height: 5em;
+  height: 5rem;
   font-family: Overpass;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: .9rem;
   color: black;
   display: flex;
   align-items: center;
@@ -187,10 +187,10 @@
 
 .containerAnimate2 {
   width: auto;
-  height: 5em;
+  height: 5rem;
   font-family: Overpass;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: .9rem;
   color: black;
   display: flex;
   align-items: center;
@@ -233,10 +233,10 @@
 
 .containerAnimate3 {
   width: auto;
-  height: 5em;
+  height: 5rem;
   font-family: Overpass;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: .9rem;
   color: black;
   display: flex;
   align-items: center;
@@ -279,10 +279,10 @@
 
 .containerAnimate4 {
   width: auto;
-  height: 5em;
+  height: 5rem;
   font-family: Overpass;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: .9rem;
   color: black;
   display: flex;
   align-items: center;

@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 18px;
 }
 
 
@@ -7,7 +8,7 @@ body {
   font-family: Overpass, Verdana, sans-serif;
   color: #404042;
   background-color: white;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 h2, h3, h4, h5, h6 {
@@ -17,8 +18,8 @@ h2, h3, h4, h5, h6 {
 h1 {
   text-transform: Uppercase;
   font-family: Rubik, sans-serif;
-  margin-bottom: .5em;
-  font-size: 3.5em;
+  margin-bottom: .5rem;
+  font-size: 3.5rem;
   color: white;
   align-items: center;
   text-transform: capitalize;
@@ -99,23 +100,23 @@ h2 {
   color: #3d3d3d;
   font-weight: bold;
   opacity: .7;
-  margin: .8em;
+  margin: .8rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   color: #404042;
   font-weight: bold;
   opacity: .7;
-  margin: .8em;
+  margin: .8rem;
   text-align: center;
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #404042;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.2rem;
   text-align: center;
 }
 
@@ -156,11 +157,11 @@ p {
 .dropbtn {
   background-color: #B2B2B2;
   font-family: Chivo;
-  font-size: .9em;
+  font-size: .9rem;
   font-weight: bold;
   text-decoration: none;
   color: white;
-  padding: .5em;
+  padding: .5rem;
   border: none;
   cursor: pointer;
 }
@@ -186,7 +187,7 @@ p {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
-  font-size: .7em;
+  font-size: .7rem;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
@@ -231,7 +232,7 @@ p {
 
 .btn-impress {
   font-family: Chivo;
-  font-size: .8em;
+  font-size: .8rem;
   color: white;
 }
 
@@ -254,7 +255,7 @@ p {
 .homeBtn {
   color: white !important;
   font-family: Chivo;
-  font-size: .7em;
+  font-size: .7rem;
   text-decoration: none;
   background: #B2B2B2;
   padding: 10px;
@@ -263,7 +264,7 @@ p {
   border-style: solid;
   border-color: darkgrey;
   transition: all 0.4s ease 0s;
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 
 .homeBtn:hover {
@@ -290,25 +291,25 @@ p {
   width: 100%;
   height: 100%;
   margin-bottom: 0em;
-  margin-top: 5em;
+  margin-top: 5rem;
 }
 
 .box3 {
   min-height: : 3em;
   text-align: center;
-  padding: 2em;
+  padding: 2rem;
 }
 
 .box3 p {
   font-family: Chivo;
   font-weight: bold;
-  font-size: .9em;
+  font-size: .9rem;
   color: #3d3d3d;
 }
 
 .box4 {
   width: 100%;
-  height: 5em;
+  height: 5rem;
   text-align: center;
   margin: 0em;
 }
@@ -316,13 +317,13 @@ p {
 .box5 {
   background-size: cover;
   background-position: center;
-  padding: 4em 0;
+  padding: 4rem 0;
 }
 
 .box6 {
   background-size: cover;
   background-position: center;
-  padding: 2em 0;
+  padding: 2rem 0;
 }
 
 .box7 {
@@ -332,6 +333,15 @@ p {
   text-align: left;
   width: 30vw;
   height: auto;
+}
+
+.box7 > h6 {
+  font-family: Overpass, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 140%;
+  color: #696969;
+  text-align: left;
 }
 
 .banner {
@@ -367,15 +377,15 @@ p {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 4em;
-  margin-top: 0em;
+  height: 4rem;
+  margin-top: 0rem;
 }
 
 .container0 > div > a {
   font-family: Chivo, sans-serif;
   font-weight: normal;
   color: white;
-  font-size: .8em;
+  font-size: .8rem;
 
 }
 
@@ -384,8 +394,8 @@ p {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 8em;
-  margin-top: 0em;
+  height: 8rem;
+  margin-top: 0rem;
 }
 
 .container1 > h2 {
@@ -400,13 +410,13 @@ p {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 8em;
-  margin-top: 10em;
-  margin-bottom: 5em;
+  height: 8rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .container2 > a {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .container3 {
@@ -414,8 +424,8 @@ p {
   justify-content: center;
   align-items: center;
   width: 99%;
-  height: 20em;
-  margin-bottom: 1em;
+  height: 20rem;
+  margin-bottom: 1rem;
 }
 
 .container4 {
@@ -423,17 +433,17 @@ p {
   justify-content: center;
   width: auto;
   height: 100px;
-  margin-bottom: 17em;
+  margin-bottom: 17rem;
 }
 
 .container5 {
   display: block;
   width: auto;
-  height: 50em;
-  padding-top: 1em;
-  padding-bottom: 0em;
-  margin-top: 1em;
-  margin-bottom: 0em;
+  height: 50rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 
 }
 
@@ -472,22 +482,22 @@ p {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 5px;
-  width: 20em;
+  width: 20rem;
   text-align: center;
   padding: 34px 26px 16px 26px;
   margin: 8px;
 }
 
 .card-white > img {
-  width: 15em;
-  height: 15em;
+  width: 15rem;
+  height: 15rem;
   object-fit: cover;
   border-radius: 4px;
 }
 
 .card-white h3 {
-  font-size: 1.1em;
-  margin: .8em;
+  font-size: 1.1rem;
+  margin: .8rem;
 }
 
 .card-whiteP4 {
@@ -498,34 +508,34 @@ p {
   width: auto;
   text-align: left;
   padding: 26px 26px 26px 20px;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .card-whiteP4 > h4 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #B2B2B2;
-  margin-right: .4em;
+  margin-right: .4rem;
   text-align: center;
 }
 
 .card-whiteP4 > p {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: bold;
   color: black;
-  margin: .8em;
+  margin: .8rem;
 }
 
 .container-me {
   display: flex;
   justify-content: center;
   flex-flow: row;
-  margin: 2em 2em 6em 2em;
+  margin: 2rem 2rem 6rem 2rem;
 }
 
 .container-me > div {
   background: white;
   border-radius: 4px;
-  margin: .5em;
+  margin: .5rem;
 }
 
 .card-me {
@@ -555,11 +565,12 @@ p {
 .columns-n1 {
   background: #F96565;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
-  padding-top: 2.5em;
+  padding-top: 2.5rem;
   overflow: hidden;
 }
 
 .columns-n1 > h4 {
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -571,50 +582,52 @@ p {
 
 .columns-next2 > div {
   width: auto;
-  margin: 2em;
+  margin: 2rem;
 }
 
 .columns2-next2 {
   font-family: Overpass;
   color: #404042;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 100%;
   text-align: left;
   justify-content: initial;
-  padding: .9em;
+  padding: .9rem;
 }
 
-.columns2-next2 h3 {
+.columns2-next2 > h3 {
   text-align: right;
   font-size: 1.3rem;
 }
 
-.columns2-next2 p {
-  font-family: Overpass;
-  color: black;
-  text-align: left;
+.columns2-next2 > h6 {
+  font-family: Overpass, Verdana, sans-serif;
   font-size: 1rem;
+  font-weight: normal;
+  line-height: 140%;
+  color: #696969;
+  text-align: left;
 }
 
 .columns2-next3 {
   font-family: Overpass;
   color: #404042;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   background: white;
   width: 100%;
   text-align: center;
   justify-content: initial;
-  padding: .7em;
+  padding: .7rem;
 }
 
 .row-content {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 5px;
-  width: 20em;
+  width: 20rem;
   text-align: left;
   padding: 34px 26px 16px 26px;
   margin: 8px; 
@@ -623,8 +636,8 @@ p {
 .footer {
   background: #B2B2B2;
   align-content: center;
-  padding-top: 1.4em;
-  padding-bottom: 1em;
+  padding-top: 1.4rem;
+  padding-bottom: 1rem;
   height: 7em;
 }
 
@@ -649,7 +662,7 @@ p {
   width: auto;
   height: auto;
   display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 /* Grid */
@@ -661,7 +674,7 @@ p {
   grid-auto-flow: row;
   max-width: 90%;
   height: auto;
-  margin: 1em;
+  margin: 1rem;
 }
 
 .item {
@@ -674,13 +687,13 @@ p {
   width: auto;
   text-align: left;
   padding: 25px;
-  margin: .5em;
+  margin: .5rem;
 }
 
 .item > h6 {
   display: flex;
   font-family: Overpass, Verdana, sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 140%;
   color: #696969;
@@ -743,10 +756,10 @@ p {
     font-size: 1.1rem;
   }
   .container2 {
-    margin: 1.6em;
+    margin: 1.6rem;
   }
   .container3 {
-    max-width: 70em;
+    max-width: 70rem;
     height: auto;
   }
   .container5 {
@@ -754,7 +767,7 @@ p {
     height: auto;
   }
   .banner > h1 {
-    font-size: 3.4em;;
+    font-size: 3.4rem;;
     padding: 30px 0;
   }
   .banner h2 {
@@ -765,9 +778,6 @@ p {
   }
   .banner2 > a > h2 {
     font-size: 1.6rem;
-  }
-  .containerAnimate {
-    font-size: 0.9em;
   }
   .grid {
   display: grid;
@@ -786,17 +796,17 @@ p {
   }
   .container1 {
     height: 5rem;
-    margin-top: 0em;
+    margin-top: 0rem;
   }
   .container1 > h2 {
     font-size: 1.1rem;
   }
 
   .container2 {
-    margin: 1.3em;
+    margin: 1.3rem;
   }
   .container3 {
-    max-width: 60em;
+    max-width: 60rem;
     height: auto;
   }
   .container5 {
@@ -805,7 +815,7 @@ p {
   }
 
   .container8 {
-    max-width: 60em;
+    max-width: 60rem;
     height: auto;
   }
 
@@ -816,20 +826,20 @@ p {
   .box {
     background-size: cover;
     background-position: center;
-    padding: 1.1em 0;
+    padding: 1.1rem 0;
   }
   .box2 {
-    margin-bottom: 0em;
-    margin-top: 1em;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
   }
   .box6 {
     background-size: cover;
     background-position: center;
-    padding: .5em 0;
+    padding: .5rem 0;
   }
   .container7 {
-    margin-top: -1em;
-    margin-bottom: -1em;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
   }
   .flex-cards {
     display: flex;
@@ -860,7 +870,7 @@ p {
     flex-flow: row wrap; 
   }  
   .banner > h1 {
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     padding: 0;
   }
@@ -872,9 +882,6 @@ p {
   }
   .banner2 > a > h2 {
     font-size: 1.5rem;
-  }
-  .containerAnimate {
-    font-size: 0.8em;
   }
   .grid {
   display: grid;
@@ -891,17 +898,17 @@ p {
   }
   .container1 {
     height: 5rem;
-    margin-top: 0em;
+    margin-top: 0rem;
   }
   .container1 > h2 {
     font-size: 1rem;
   }
 
   .container2 {
-    margin: 1.2em;
+    margin: 1.2rem;
   }
   .container3 {
-    max-width: 40em;
+    max-width: 40rem;
     height: auto;
   }
   .container5 {
@@ -915,20 +922,20 @@ p {
   .box {
     background-size: cover;
     background-position: center;
-    padding: 1em 0;
+    padding: 1rem 0;
   }
   .box2 {
-    margin-bottom: 0em;
-    margin-top: .5em;
+    margin-bottom: 0rem;
+    margin-top: .5rem;
   }
   .box6 {
     background-size: cover;
     background-position: center;
-    padding: .5em 0;
+    padding: .5rem 0;
   }
   .container7 {
-    margin-top: -1em;
-    margin-bottom: -1em;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
   }
   .flex-cards {
     display: flex;
@@ -959,7 +966,7 @@ p {
   }
 
   .columns2-next2 h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .columns2-next2 p {
@@ -972,17 +979,13 @@ p {
     margin: 0;
   }
   .banner h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .banner2 {
     height: 2rem;
   }
   .banner2 > a > h2 {
-    font-size: 1.3rem;
-  }
-
-  .containerAnimate {
-    font-size: 0.6em;
+    font-size: 1.4rem;
   }
   .grid {
     display: grid;
