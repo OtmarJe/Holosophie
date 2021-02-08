@@ -16,6 +16,22 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   text-transform: Uppercase;
+  font-family: Kodchasan, sans-serif;
+  margin-bottom: .5em;
+  font-size: 4em;
+  color: white;
+  align-items: center;
+  text-shadow: -1.4px 1.4px 0 #000,
+                1.4px 1.4px 0 #000,
+                1.4px -1.4px 0 #000,
+               -1.4px -1.4px 0 #000;
+
+}
+
+/* dropdown 
+
+h1 {
+  text-transform: Uppercase;
   font-family: Rubik, Arial, sans-serif;
   margin-bottom: .5em;
   font-size: 4em;
@@ -49,12 +65,13 @@ h1:after {
   mix-blend-mode: multiply;
 }
 
-
+menu */
 
 
 h2 {
-  font-size: 2em;
-  color: #404042;
+  font-size: 2rem;
+  color: #3d3d3d;
+  font-weight: bold;
   opacity: .7;
   margin: .8em;
   text-align: center;
@@ -63,6 +80,7 @@ h2 {
 h3 {
   font-size: 1.3em;
   color: #404042;
+  font-weight: bold;
   opacity: .7;
   margin: .8em;
   text-align: center;
@@ -90,7 +108,7 @@ main > div {
 }
 
 a {
-  color: #B2B2B2;
+  color: white;
   font-weight: bold;
   text-decoration: none;
   transition: .3s;
@@ -112,7 +130,8 @@ p {
 .dropbtn {
   background-color: #B2B2B2;
   font-family: Chivo;
-  font-size: 1em;
+  font-size: .9em;
+  font-weight: bold;
   text-decoration: none;
   color: white;
   padding: .5em;
@@ -134,14 +153,14 @@ p {
   right: 0;
   background-color: none;
   border-radius: 8px;
-  min-width: 3em;
+  min-width: 2em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
-  font-size: .8em;
+  font-size: .7em;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
@@ -162,7 +181,7 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #566573;
+  background-color: #B2B2B2;
 }
 
 /* my move on btn */
@@ -172,7 +191,7 @@ p {
   color: white;
   width: 190px;
   padding: 50px;
-  border-radius: 140px 20px;
+  border-radius: 150px 20px;
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -203,7 +222,6 @@ p {
 .jumpto:hover {
   text-decoration: underline black;
 }
-
 
 /* my home btn - not in use*/
 
@@ -251,10 +269,15 @@ p {
 
 .box3 {
   min-height: : 3em;
-  font-family: Chivo;
-  color: grey;
   text-align: center;
   padding: 2em;
+}
+
+.box3 p {
+  font-family: Chivo;
+  font-weight: bold;
+  font-size: .9em;
+  color: #3d3d3d;
 }
 
 .box4 {
@@ -281,9 +304,8 @@ p {
   background-size: cover;
   background-position: center;
   text-align: left;
-  width: 50vw;
+  width: 30vw;
   height: auto;
-  padding: 2em 0;
 }
 
 .banner {
@@ -291,16 +313,6 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-}
-
-
-.banner h2 {
-  color: #404042;
-  opacity: .7;
-  font-size: 2rem;
-  font-weight: lighter;
-  margin-top: 24px;
-  margin-bottom: 45px;
 }
 
 .banner p {
@@ -333,6 +345,14 @@ p {
   margin-top: 0em;
 }
 
+.container0 > div > a {
+  font-family: Chivo, sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: .8em;
+
+}
+
 .container1 {
   display: flex;
   justify-content: center;
@@ -343,6 +363,9 @@ p {
 }
 
 .container1 > h2 {
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  color: #3d3d3d;
   font-size: 1.2rem;
 }
 
@@ -354,6 +377,10 @@ p {
   height: 8em;
   margin-top: 10em;
   margin-bottom: 5em;
+}
+
+.container2 > a {
+  font-size: 1em;
 }
 
 .container3 {
@@ -480,10 +507,16 @@ p {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
-  width: 20em;
+  width: auto;
   text-align: center;
   padding: 24px;
 }
+
+ .card-me > h3 {
+    font-size: 1.3rem;
+    text-align: right;
+    padding-right: 1.3rem;
+  }
 
 .responsiveImg {
   width: 200px;
@@ -498,6 +531,10 @@ p {
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   padding-top: 2.5em;
   overflow: hidden;
+}
+
+.columns-n1 > h4 {
+  font-weight: bold;
 }
 
 .columns-next2 {
@@ -525,8 +562,6 @@ p {
 }
 
 .columns2-next2 h3 {
-  font-family: Chivo, Helvetica, sans-serif;
-  color: #404042;
   text-align: right;
   font-size: 1.3rem;
 }
@@ -591,7 +626,7 @@ p {
   margin-bottom: 1em;
 }
 
-/* Grid ? Animation? */
+/* Grid */
 
 .grid {
   display: grid;
@@ -605,7 +640,10 @@ p {
 
 .item {
   background: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-style: inset;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  box-shadow: 0 0 9px rgba(0,0,0,0.04);
   border-radius: 5px;
   width: auto;
   text-align: left;
@@ -619,24 +657,24 @@ p {
   font-size: 1em;
   font-weight: bold;
   line-height: 140%;
-  color: ghostwhite;
+  color: #696969;
   text-align: left;
 }
 
 
 
-#soc {background-color: slateblue;}
-#try {background-color: olive;}
-#rela {background-color: purple;}
-#rig {background-color: steelblue;}
-#tak {background-color: firebrick;}
-#mor {background-color: navy;}
-#age {background-color: darkslategray;}
-#core {background-color: sienna;}
-#inla {background-color: blue;}
-#holi {background-color: darkorange;}
-#tod {background-color: palevioletred;}
-#larg {background-color: green;}
+#soc {background-color: white;}
+#try {background-color: white;}
+#rela {background-color: white;}
+#rig {background-color: white;}
+#tak {background-color: white;}
+#mor {background-color: white;}
+#age {background-color: white;}
+#core {background-color: white;}
+#inla {background-color: white;}
+#holi {background-color: white;}
+#tod {background-color: white;}
+#larg {background-color: white;}
 
 
  
@@ -690,11 +728,11 @@ p {
     height: auto;
   }
   .banner > h1 {
-    font-size: 3em;;
+    font-size: 3.7em;;
     padding: 30px 0;
   }
   .banner h2 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
    .banner2 {
     height: 3.5rem;
@@ -771,17 +809,37 @@ p {
     display: flex;
     flex-flow: row wrap;
   }
+
+   .card-me {
+    width: 100%;
+    padding: 20px;
+  }
+  .card-me > h3 {
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  .box7 {
+    width: 98%;
+    height: auto;
+    padding: 0;
+  }
+  .box7 > p {
+    font-size: .8rem;
+  }
+
   .columns-next2 {
     display: flex;
     flex-flow: row wrap; 
   }  
   .banner > h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     padding: 0;
   }
   .banner h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .banner2 {
     height: 3rem;
@@ -854,18 +912,28 @@ p {
     width: 100%;
     padding: 20px;
   }
+  .card-me > h3 {
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 1rem;
+  }
+
   .box7 {
     width: 98%;
     height: auto;
     padding: 0;
   }
+  .box7 > p {
+    font-size: .8rem;
+  }
+
   .columns-next2 {
     display: flex;
     flex-flow: wrap; 
   }
 
   .columns2-next2 h3 {
-  font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .columns2-next2 p {
@@ -873,7 +941,7 @@ p {
   }
 
   .banner > h1 {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     text-align: center;
     margin: 0;
   }
@@ -884,19 +952,18 @@ p {
     height: 2rem;
   }
   .banner2 > a > h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .containerAnimate {
     font-size: 0.6em;
   }
   .grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  overflow: scroll;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: scroll;
   }
   
-
 }
 
 
