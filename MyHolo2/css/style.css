@@ -154,15 +154,17 @@ p {
 }
 /* page 1 hover circle menu */
 .container00 {
-  height: 30vw;
+  height: 25rem;
   position: relative;
   display: inline-flex;
+  z-index: -1;
 }
 
 .container01 {
-  height: 20vw;
+  height: 20rem;
   position: relative;
   display: inline-flex;
+  z-index: -1;
 }
 
 .banner0 {
@@ -177,18 +179,22 @@ p {
   width:280px;
   height:280px;
   border-radius:140px;
-  border:4px double darkgrey;
+  border:6px double #F96565;
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
+   box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
   line-height:100px;
   text-align:center;
   text-decoration:none;
-  background:#ddd;
+  background:#A0AA7A;
   margin: 2rem;
+  z-index: 8;
 }
 .circle1:hover {
   border:10px double #bbb;
   color:#aaa;
   text-decoration:none;
-  background:red;
+  background:#F96565;
 }
 
 .circle1 h1 {
@@ -267,7 +273,7 @@ p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: red;
+  background-color: #F96565;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -290,7 +296,7 @@ p {
 }
 
 .btn-holos:hover {
-  background-color: red;
+  background-color: #F96565;
   color: white;
 }
 
@@ -343,6 +349,20 @@ p {
 }
 
 /* end my home btn */
+
+/* Jumbotron styles start */
+
+.jumbotron {
+    margin-bottom: -5rem;
+    background: url("../images/FlowerGarden-1.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    z-index: 5;
+}
+
+/* Jumbotron styles end */
 
 .box1 {
   background-size: cover;
@@ -830,6 +850,19 @@ p {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+ .container00 {
+  height: 20rem;
+  position: relative;
+  display: inline-flex;
+  z-index: -1;
+  }
+
+  .container01 {
+  height: 15rem;
+  position: relative;
+  display: inline-flex;
+  z-index: -1;
+  }
   .box1 {
     padding: 2.7rem 0;
   }
@@ -876,6 +909,19 @@ p {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .container00 {
+  height: 15rem;
+  position: relative;
+  display: inline-flex;
+  z-index: -1;
+  }
+
+  .container01 {
+  height: 10rem;
+  position: relative;
+  display: inline-flex;
+  z-index: -1;
+  }
   .box1 {
     padding: 2.3rem 0;
   }
@@ -978,6 +1024,19 @@ p {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  .container00 {
+  height: 15rem;
+  position: relative;
+  display: inline-flex;
+  z-index: -1;
+  }
+
+.container01 {
+  height: 8rem;
+  position: relative;
+  display: inline-flex;
+  z-index: -1;
+  }
   .box1 {
     padding: 2rem 0;
   }
