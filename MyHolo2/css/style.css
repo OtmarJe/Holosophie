@@ -165,6 +165,12 @@ p {
   display: inline-flex;
 }
 
+.banner0 {
+  display: flex;
+  justify-content: center;
+  min-height: 20vh;
+}
+
 .circle1 {
   position: relative;
   display:block;
@@ -188,7 +194,7 @@ p {
 .circle1 h1 {
   text-transform: Uppercase;
   font-family: Rubik, sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: white;
   align-items: center;
   text-transform: capitalize;
@@ -200,7 +206,7 @@ p {
 
 .circle1 h5 {
   font-family: Rubik, sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: white;
   align-items: center;
   text-transform: capitalize;
@@ -412,13 +418,6 @@ p {
 .banner p {
   color: white;
   font-size: 24px;
-}
-
-.banner0 {
-  display: flex;
-  justify-content: center;
-  vertical-align: center;
-  min-height: 20vh;
 }
 
 .banner2 {
