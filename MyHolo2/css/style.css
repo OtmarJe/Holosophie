@@ -420,7 +420,7 @@ p {
 .bigpicture {
   position: relative;
   justify-content: center;
-  background: url("../images/blumen2-1.jpg");
+  background: url("../images/blumenN2-1.jpg");
   background-size: cover;  
   background-repeat: no-repeat;
   z-index: 1;
