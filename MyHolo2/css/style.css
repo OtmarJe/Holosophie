@@ -313,23 +313,26 @@ p {
 
 .jumbotron {
     margin-bottom: -5rem;
-    background: url("../images/FlowerGarden-1.jpg");
-    background-size: cover;  
-    background-repeat: no-repeat;
+
     background-attachment: fixed;
     z-index: 5;
 }
 
-.jumbotron-special {
-  position: relative;
-  justify-content: center;
-  background: url("../images/blumenN2-1.jpg");
-  background-size: cover;  
-  background-repeat: no-repeat;
-  margin-bottom: -2rem;
-  z-index: 5;
+#picture1 {
+    background: url("../images/FlowerGarden-1.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
 }
 
+#picture2 {
+    position: relative;
+    background: url("../images/blumenN2-1.jpg");
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-bottom: -2rem; 
+}
+  
 /* Jumbotron styles end */
 
 .box1 {
