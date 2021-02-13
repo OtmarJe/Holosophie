@@ -311,13 +311,23 @@ p {
 
 /* Jumbotron styles start */
 
-.jumbotron {
+.jumbotron-special-1 {
     margin-bottom: -5rem;
     background: url("../images/FlowerGarden-1.jpg");
     background-size: cover;  
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 5;
+}
+
+.jumbotron-special-2 {
+  position: relative;
+  justify-content: center;
+  background: url("../images/blumenN2-1.jpg");
+  background-size: cover;  
+  background-repeat: no-repeat;
+  margin-bottom: -2rem;
+  z-index: 5;
 }
 
 /* Jumbotron styles end */
@@ -415,15 +425,6 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-}
-
-.bigpicture {
-  position: relative;
-  justify-content: center;
-  background: url("../images/blumenN2-1.jpg");
-  background-size: cover;  
-  background-repeat: no-repeat;
-  z-index: 1;
 }
 
 .wholething {
