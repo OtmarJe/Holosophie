@@ -18,9 +18,8 @@ h2, h3, h4, h5, h6 {
 h1 {
   text-transform: Uppercase;
   font-family: Rubik, sans-serif;
-
   font-size: 3.5rem;
-  color: white;
+  color: #A0AA7A;
   align-items: center;
   text-transform: capitalize;
   text-shadow: -1.9px 1.9px 0 #000,
@@ -312,25 +311,21 @@ p {
 /* Jumbotron styles start */
 
 .jumbotron {
-    margin-bottom: -5rem;
-
-    background-attachment: fixed;
-    z-index: 5;
-}
-
-#picture1 {
     background: url("../images/FlowerGarden-1.jpg");
-    background-size: cover;  
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+    z-index: 0;
 }
+
 
 #picture2 {
-    position: relative;
     background: url("../images/blumenN2-1.jpg");
     background-size: cover;
-    justify-content: center;
     background-repeat: no-repeat;
-    margin-bottom: -2rem; 
 }
   
 /* Jumbotron styles end */
@@ -358,19 +353,12 @@ p {
   margin-bottom: 4rem;
 }
 
-.box3 > div {
-  height: auto;
-  padding-left: 7px;
-  padding-right: 7px;
-  background-color: white;
-  opacity: 0.8;
-}
-
-.box3 > div > p {
+.box3 > p {
   font-family: Chivo;
   font-weight: bold;
   font-size: .9rem;
   color: black;
+  text-shadow: 00 6px 6px black;
 }
 
 .box4 {
@@ -456,27 +444,21 @@ p {
 
 }
 
+
 .container1 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
-  opacity: .8;
   height: 8rem;
 }
 
-.container1 > div {
-  width: auto;
-  height: auto;
-  background-color: white;
-  border-radius: 0rem;
-}
-
-.container1 > div > h2 {
+.container1 > h2 {
   font-family: Chivo, sans-serif;
   font-weight: bold;
   color: black;
   font-size: 1.2rem;
+  text-shadow: 00 6px 6px black;
 }
 
 .container2 {
