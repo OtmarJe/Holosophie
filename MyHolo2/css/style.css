@@ -322,7 +322,7 @@ p {
 }
 
 
-#picture2 {
+.jumbotron-special {
     background: url("../images/blumenN2-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,7 +358,7 @@ p {
   font-weight: bold;
   font-size: .9rem;
   color: black;
-  text-shadow: 00 6px 6px black;
+  text-shadow: 00 9px 9px black;
 }
 
 .box4 {
@@ -458,7 +458,7 @@ p {
   font-weight: bold;
   color: black;
   font-size: 1.2rem;
-  text-shadow: 00 6px 6px black;
+  text-shadow: 00 10px 10px black;
 }
 
 .container2 {
