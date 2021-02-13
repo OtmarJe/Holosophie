@@ -311,7 +311,7 @@ p {
 
 /* Jumbotron styles start */
 
-.jumbotron-special-1 {
+.jumbotron {
     margin-bottom: -5rem;
     background: url("../images/FlowerGarden-1.jpg");
     background-size: cover;  
@@ -320,7 +320,7 @@ p {
     z-index: 5;
 }
 
-.jumbotron-special-2 {
+.jumbotron-special {
   position: relative;
   justify-content: center;
   background: url("../images/blumenN2-1.jpg");
