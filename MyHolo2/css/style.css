@@ -114,6 +114,7 @@ p {
   height: 25rem;
   position: relative;
   display: inline-flex;
+  visibility: hidden;
   z-index: -1;
 }
 
@@ -121,6 +122,7 @@ p {
   height: 20rem;
   position: relative;
   display: inline-flex;
+  visibility: hidden;
   z-index: -1;
 }
 
@@ -280,36 +282,6 @@ p {
   text-decoration: underline black;
 }
 
-/* my home btn - not in use*/
-
-.homeBtn {
-  color: white !important;
-  font-family: Chivo;
-  font-size: .7rem;
-  text-decoration: none;
-  background: #B2B2B2;
-  padding: 10px;
-  border-radius: 45px 13px;
-  display: inline-block;
-  border-style: solid;
-  border-color: darkgrey;
-  transition: all 0.4s ease 0s;
-  margin-top: 1rem;
-}
-
-.homeBtn:hover {
-  text-decoration: none;
-  background-color: red;
-  border-style: solid;
-  border-color: red;
-  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.57);
-  transition: all 0.4s ease 0s;
-}
-
-/* end my home btn */
-
 /* Jumbotron styles start */
 
 .jumbotron {
@@ -467,7 +439,7 @@ p {
   padding: 0px 4px 0px 4px;
   border-style: inset;
   background-color: white;
-  border-radius: 7px;
+  border-radius: 5px;
   border-top: 2px solid black;
   border-left: 2px solid black;
 }
@@ -478,6 +450,14 @@ p {
   color: #404042;
   font-size: 1.2rem;
 
+}
+
+.container1 > div > p {
+  font-family: Chivo;
+  font-weight: bold;
+  font-size: .9rem;
+  color: #404042;
+  text-align: center;
 }
 
 .container2 {
@@ -853,6 +833,9 @@ p {
   display: inline-flex;
   z-index: -1;
   }
+  .container02 {
+    min-height: 1.5rem;
+  }
   .container1 {
     height: 6rem;
     margin-top: 0em;
@@ -861,7 +844,8 @@ p {
     font-size: 1.1rem;
   }
   .container2 {
-    margin: 1.6rem;
+    margin-top: 2.6rem;
+    margin-bottom: 1.6rem;
   }
   .container3 {
     max-width: 70rem;
@@ -907,24 +891,28 @@ p {
   display: inline-flex;
   z-index: -1;
   }
-
   .container01 {
   height: 10rem;
   position: relative;
   display: inline-flex;
   z-index: -1;
   }
-  
+  .container02 {
+    min-height: 1.6rem;
+  }
   .container1 {
     height: 5rem;
     margin-top: 0rem;
   }
-  .container1 > h2 {
+  .container1 > div > h2 {
     font-size: 1.1rem;
   }
-
+  .container1 > div > p {
+    font-size: .85rem;
+  }
   .container2 {
-    margin: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
   }
   .container3 {
     max-width: 60rem;
@@ -1012,7 +1000,11 @@ p {
   grid-template-columns: 1fr 1fr;
   overflow: scroll;
   }
-  
+  .btn-holos {
+    width: 130px;
+    padding: 25px;
+    border-radius: 110px 15px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -1029,15 +1021,20 @@ p {
     display: inline-flex;
     z-index: -1;
   }
+  .container02 {
+    min-height: 1.5rem;
+  }
   .container1 {
     height: 4rem;
     margin-top: 0rem;
     margin-bottom: 2rem;
   }
-  .container1 > h2 {
+  .container1 > div > h2 {
     font-size: 1rem;
   }
-
+  .container1 > div > p {
+    font-size: .8rem;
+  }
   .container2 {
     margin: 1.2rem;
   }
@@ -1135,7 +1132,11 @@ p {
     grid-template-columns: 1fr;
     overflow: scroll;
   }
-  
+  .btn-holos {
+    width: 120px;
+    padding: 20px;
+    border-radius: 90px 10px;
+  }
 }
 
 
