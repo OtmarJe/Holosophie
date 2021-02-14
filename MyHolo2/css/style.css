@@ -406,9 +406,6 @@ p {
   width: auto;
 }
 
-.container {  
-}
-
 .container0 {
   display: flex;
   justify-content: center;
@@ -442,6 +439,13 @@ p {
   border-radius: 5px;
   border-top: 2px solid black;
   border-left: 2px solid black;
+}
+
+.container1 > h4 {
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  color: #696969;
+  font-size: 1.2rem;
 }
 
 .container1 > div > h2 {
@@ -910,6 +914,12 @@ p {
   .container1 > div > p {
     font-size: .85rem;
   }
+  .container1 > h4 {
+    font-family: Chivo, sans-serif;
+    font-weight: bold;
+    color: #696969;
+    font-size: 1.1rem;
+  }
   .container2 {
     margin-top: 2rem;
     margin-bottom: 1.4rem;
@@ -1034,6 +1044,12 @@ p {
   }
   .container1 > div > p {
     font-size: .8rem;
+  }
+  .container1 > h4 {
+    font-family: Chivo, sans-serif;
+    font-weight: bold;
+    color: #696969;
+    font-size: 1rem;
   }
   .container2 {
     margin: 1.2rem;

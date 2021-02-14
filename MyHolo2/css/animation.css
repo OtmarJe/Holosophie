@@ -22,9 +22,12 @@
 }
 
 /* Start Grid-Anima */
+.animate-css-grid {
+  transition: all;
+}
 
 .wrapGrid {
-  animation-name: wrapGrid 20s steps(12) forwards;
+  animation-name: wrapGrid 30s steps(12) forwards;
   animation-iteration-count: infinite;
 }
 
@@ -33,36 +36,6 @@
   to {object-position: 12}
 }
 
-/* Shadow Animation */
-
-
-.shadow {
-  animation: text-shadow 23s infinite alternate;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-@keyframes text-shadow {
-  0% {text-shadow: 1px 1px 0px #ccc}
-  2% {text-shadow: 1.5px 1px 0.5px #ccc}
-  5% {text-shadow: 2px 2px 1px #ccc}
-  7% {text-shadow: 2.4px 2.4px 1.3px #333}
-  9% {text-shadow: 2.7px 2.7px 1.7px #333}
-  10% {text-shadow: 3px 3px 2px #333}
-  13% {text-shadow: 5px 4.5px 3px #333}
-  17% {text-shadow: 7px 8px 5px #333}
-  20% {text-shadow: 8px 10px 6px #999}
-  25% {text-shadow: 9.1px 10.5px 6px #999}
-  30% {text-shadow: 9.3px 11px 6px #999}
-  35% {text-shadow: 9.7px 12.5px 6px #999}
-  40% {text-shadow: 10px 13px 6px #ccc}
-  50% {text-shadow: 8px 11.5px 5px #ccc}  
-  60% {text-shadow: 6px 10px 4px #ccc}
-  70% {text-shadow: 4px 9px 3.5px #ccc}  
-  80% {text-shadow: 2px 8px 3px #ccc}
-  90% {text-shadow: 1.5px 6.5px 2px #eee}
-  100% {text-shadow: 1px 5px 1px #eee}
-}
 
 /* Box Animation */
 
@@ -323,95 +296,34 @@
   100% {left: -5%; background: white; width: 106%;}
 }
 
+/* Shadow Animation not in use*/
 
-/* grid Animation
 
-.grid {
-  display: grid;
-  grid-template-columns: auto;
-  grid-auto-flow: row;
-  max-width: 90%;
-  height: 10em;
-  gap: 10px;
-  margin: .5em auto;
-  animation: resize 30s ease infinite both;
+.shadow {
+  animation: text-shadow 23s infinite alternate;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
-
-.item {
-  border-radius: 6px;
-  padding: 1em;
-  --color2: 36;
-  --color2: 76;
-  --delay: 0ms;
-  background-color: hsl(var(--color1), 100%, 60%);
-  animation: colorChange 30s ease var(--delay) infinite both;
-  
-  &:nth-child(4n - 2) {
-    --delay: 25s;
-  }
-  
-  &:nth-child(4n) {
-    --delay: 25s;
-  }
+@keyframes text-shadow {
+  0% {text-shadow: 1px 1px 0px #ccc}
+  2% {text-shadow: 1.5px 1px 0.5px #ccc}
+  5% {text-shadow: 2px 2px 1px #ccc}
+  7% {text-shadow: 2.4px 2.4px 1.3px #333}
+  9% {text-shadow: 2.7px 2.7px 1.7px #333}
+  10% {text-shadow: 3px 3px 2px #333}
+  13% {text-shadow: 5px 4.5px 3px #333}
+  17% {text-shadow: 7px 8px 5px #333}
+  20% {text-shadow: 8px 10px 6px #999}
+  25% {text-shadow: 9.1px 10.5px 6px #999}
+  30% {text-shadow: 9.3px 11px 6px #999}
+  35% {text-shadow: 9.7px 12.5px 6px #999}
+  40% {text-shadow: 10px 13px 6px #ccc}
+  50% {text-shadow: 8px 11.5px 5px #ccc}  
+  60% {text-shadow: 6px 10px 4px #ccc}
+  70% {text-shadow: 4px 9px 3.5px #ccc}  
+  80% {text-shadow: 2px 8px 3px #ccc}
+  90% {text-shadow: 1.5px 6.5px 2px #eee}
+  100% {text-shadow: 1px 5px 1px #eee}
 }
 
-.item > h4 {
-  display: flex;
-  font-family: Overpass, Verdana, sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  color: white;
-  text-align: left;
-}
-
-@keyframes colorChange {
-  0% {
-    background-color: hsl(0, 15%, 45%);
-  }
-  
-  25% {
-    background-color: hsl(238, 39%, 43%);
-  }
-    
-  50% {
-    background-color: hsl(62, 15%, 44%);
-  }
-  
-  75% {
-    background-color: hsl(46, 39%, 42%);
-  }
-  
-  100% {
-    background-color: hsl(0, 39%, 40%);
-  }
-}
-
-@keyframes resize {
-  0% {
-    grid-template-columns: 1fr 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 2fr 1fr;
-  }
-  
-  25% {
-    grid-template-columns: 2fr 1fr 3fr;
-    grid-template-rows: 2fr 1fr 3fr;
-  }
-  
-  50% {
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr; 
-  }
-  
-  75% {
-    grid-template-columns: 3fr 2fr 1fr;
-    grid-template-rows: 3fr 2fr 1fr;
-  }
-  
-  100% {
-    grid-template-columns: 2fr 1fr 3fr;
-    grid-template-rows: 2fr 1fr 3fr;
-  }
-}
-
-Animation */
