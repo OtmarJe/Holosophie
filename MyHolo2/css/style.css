@@ -3,12 +3,12 @@
   font-size: 18px;
 }
 
-
 body {
   font-family: Overpass, Verdana, sans-serif;
   color: #404042;
   background-color: white;
   font-size: 1.8rem;
+  min-height: 100%;
 }
 
 h2, h3, h4, h5, h6 {
@@ -83,11 +83,12 @@ h4 {
 header {
   position: sticky !important;
   top: 0;
-  z-index: 9;
+  z-index: 10;
 }
 
 main {
   position: static;
+  display: cover;
 }
 
 main > div {
@@ -280,7 +281,7 @@ p {
   border: none;
   font-family: Chivo;
   font-size: .6rem;
-  color: #B2B2B2;
+  color: white;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -302,7 +303,7 @@ p {
   text-align: center;
   height: auto;
   margin-bottom: auto;
-  z-index: -1;
+  z-index: 7;
 }
 
 #mydiv {
@@ -345,6 +346,11 @@ p {
     background: url("../images/Blumen3-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+        background-attachment: fixed;
+    justify-content: center;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+    z-index: 0;
 }
   
 /* Jumbotron styles end */
@@ -781,6 +787,7 @@ p {
   text-decoration: underline;
 }
 
+
 .bigBox {
   position: relative;
   justify-content: center;
@@ -885,6 +892,7 @@ p {
   }
   .container02 {
     min-height: 1.5rem;
+    margin-bottom: auto;
   }
   .container1 {
     height: 6rem;
@@ -949,6 +957,7 @@ p {
   }
   .container02 {
     min-height: 1.6rem;
+    margin-bottom: auto;
   }
   .container1 {
     height: 5rem;
@@ -1079,6 +1088,7 @@ p {
   }
   .container02 {
     min-height: 1.5rem;
+    margin-bottom: auto;
   }
   .container1 {
     height: 4rem;
