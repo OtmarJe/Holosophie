@@ -1,6 +1,5 @@
 
 
-/* ANIMATIONS */
 
 .typewriter-h4 {
   display: inline-block;
@@ -22,13 +21,14 @@
 }
 
 /* Start Grid-Anima */
-.animate-css-grid {
-  transition: all;
-}
 
 .wrapGrid {
-  animation-name: wrapGrid 30s steps(12) forwards;
-  animation-iteration-count: infinite;
+  animation-name: wrapGrid 10s steps(1) forwards;
+  -webkit-transition: width 0.3s ease, margin 0.3s ease;
+  -moz-transition: width 0.3s ease, margin 0.3s ease;
+  -o-transition: width 0.3s ease, margin 0.3s ease;
+   transition: width 0.3s ease, margin 0.3s ease;
+   animation-iteration-count: infinite;
 }
 
 @keyframes wrapGrid {
@@ -36,6 +36,17 @@
   to {object-position: 12}
 }
 
+/*
+.wrapGrid {
+  animation-name: wrapGrid 10s steps(1) forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wrapGrid {
+  from {object-position: 1;}
+  to {object-position: 12}
+}
+*/
 
 /* Box Animation */
 
