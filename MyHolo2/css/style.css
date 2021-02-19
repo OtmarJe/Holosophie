@@ -462,7 +462,7 @@ p {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 4rem;
+  height: auto;
   margin-top: 0rem;
 }
 
@@ -471,7 +471,6 @@ p {
   font-weight: normal;
   color: white;
   font-size: .8rem;
-
 }
 
 
@@ -745,10 +744,11 @@ p {
 
 .footer {
   background: #B2B2B2;
-  align-content: center;
-  padding-top: 1.4rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
   padding-bottom: 1rem;
-  height: 7em;
+  height: 8em;
 }
 
 .footer-allP {
@@ -1123,7 +1123,7 @@ p {
     max-width: 100%;
     height: auto;
   }
-   .container-me {
+  .container-me {
     display: flex;
     flex-flow: row wrap;
   }
