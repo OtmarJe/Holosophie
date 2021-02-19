@@ -76,7 +76,6 @@ h3 {
 h4 {
   font-size: 1.2rem;
   color: #404042;
-  padding-bottom: 1.2rem;
   text-align: center;
 }
 
@@ -93,6 +92,12 @@ main {
 
 main > div {
   overflow: hidden;
+}
+
+footer {
+  position: sticky !important;
+  bottom: 0;
+  z-index: 5;
 }
 
 a {
@@ -149,7 +154,7 @@ p {
   text-decoration:none;
   background:#A0AA7A;
   margin: 2rem;
-  z-index: 8;
+  z-index: 6;
 }
 .circle1:hover {
   border:10px double #bbb;
@@ -303,19 +308,19 @@ p {
   text-align: center;
   height: auto;
   margin-bottom: auto;
-  z-index: 7;
+  z-index: 3;
 }
 
 #mydiv {
   position: absolute;
-  z-index: 8;
+  z-index: 6;
   text-align: center;
 }
 
 #mydivheader {
   padding: 5px;
   cursor: move;
-  z-index: 9;
+  z-index: 7;
   color: white;
 }
 /* jump-Funktion für H1 bei next1 */
@@ -346,7 +351,7 @@ p {
     background: url("../images/Blumen3-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-attachment: fixed;
     justify-content: center;
     margin-top: -4rem;
     margin-bottom: -4rem;
@@ -396,7 +401,7 @@ p {
 
 .box4 {
   width: 100%;
-  height: 5rem;
+  height: auto;
   text-align: center;
   margin: 0em;
 }
@@ -547,23 +552,24 @@ p {
 
 .container5 {
   display: block;
-  width: auto;
-  height: 50rem;
+  width: 100%;
+  height: auto;
   padding-top: 1rem;
   padding-bottom: 0rem;
   margin-top: 1rem;
   margin-bottom: 0rem;
-
 }
 
 .container6 {
   width: auto;
+  height: auto;
 }
 
 .container7 {
 }
 
 .container8 {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -671,14 +677,17 @@ p {
   border-radius: 4px;
 }
 
-.columns-n1 {
-  background: #F96565;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
-  padding-top: 2.5rem;
-  overflow: hidden;
+.column-n1 {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  height: 4.8rem;
+  justify-content: center;
+  padding-top: 2rem;
+  background-color: #F96565;  
 }
 
-.columns-n1 > h4 {
+.column-n1 > h4 {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -745,17 +754,19 @@ p {
 .footer {
   background: #B2B2B2;
   justify-content: center;
-  align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-  height: 8em;
+  width: 100%;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  height: auto;
+  margin-top: 0rem;
 }
 
 .footer-allP {
   background-color: #B2B2B2;
   width: 100%;
   font-family: Chivo;
-  font-size: .8em;
+  font-size: .7em;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -768,17 +779,20 @@ p {
 
 .footer2 {
   background: lightgrey;
-  align-content: center;
-  padding-top: 1.4rem;
-  padding-bottom: 1rem;
-  height: 7em;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  height: auto;
+  margin-top: 0rem;
 }
 
 .footer-p1 {
   background-color: lightgrey;
   width: 100%;
   font-family: Chivo;
-  font-size: 0.6rem;
+  font-size: .7rem;
   text-align: center;
   text-decoration: none;
 }
@@ -906,6 +920,7 @@ p {
     font-size: 1.1rem;
   }
   .container2 {
+    min-height: 50vw;
     margin-top: 2.6rem;
     margin-bottom: 1.6rem;
   }
@@ -947,17 +962,30 @@ p {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .containerAnimate1 {
+    height: 3rem;
+  }
+  .containerAnimate2 {
+    height: 3rem;
+  }
+  .containerAnimate3 {
+    height: 5rem;
+    padding-bottom: 1rem;
+  }
+  .containerAnimate4 {
+    height: 3rem;
+  }
   .container00 {
-  height: 15rem;
-  position: relative;
-  display: inline-flex;
-  z-index: -1;
+    height: 15rem;
+    position: relative;
+    display: inline-flex;
+    z-index: -1;
   }
   .container01 {
-  height: 10rem;
-  position: relative;
-  display: inline-flex;
-  z-index: -1;
+    height: 10rem;
+    position: relative;
+    display: inline-flex;
+    z-index: -1;
   }
   .container02 {
     min-height: 1.6rem;
@@ -980,6 +1008,8 @@ p {
     font-size: 1.1rem;
   }
   .container2 {
+    min-height: 45vw;
+    max-height: 70vw;
     margin-top: 2rem;
     margin-bottom: 1.4rem;
   }
@@ -1079,6 +1109,19 @@ p {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  .containerAnimate1 {
+    height: 3rem;
+  }
+  .containerAnimate2 {
+    height: 3rem;
+  }
+  .containerAnimate3 {
+    height: 5rem;
+    padding-bottom: 1rem;
+  }
+  .containerAnimate4 {
+    height: 3rem;
+  }
   .container00 {
     height: 15rem;
     position: relative;
@@ -1113,10 +1156,11 @@ p {
     font-size: 1rem;
   }
   .container2 {
+    min-height: 70vw;
     margin: 1.2rem;
   }
   .container3 {
-    max-width: 40rem;
+    max-width: auto;
     height: auto;
   }
   .container5 {
@@ -1129,8 +1173,8 @@ p {
   }
   
   .container7 {
-    margin-top: -1rem;
-    margin-bottom: -1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
 
   .box {

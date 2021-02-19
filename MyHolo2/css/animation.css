@@ -124,17 +124,17 @@
 
 
 .containerAnimate1 {
+  display: flex;
   width: auto;
   height: 5rem;
+  margin-bottom: 0;
   font-family: Overpass;
   font-weight: bold;
   font-size: .9rem;
   color: black;
-  display: flex;
   align-items: center;
   justify-content: center;
   background: black;
-  position: relative;
   animation-name: animateKontaner;
   animation-duration: 53s;
   animation-timing-function: linear;
@@ -170,17 +170,17 @@
 }
 
 .containerAnimate2 {
+  display: flex;
   width: auto;
   height: 5rem;
+  margin-bottom: 0;
   font-family: Overpass;
   font-weight: bold;
   font-size: .9rem;
   color: black;
-  display: flex;
   align-items: center;
   justify-content: center;
   background: white;
-  position: relative;
   animation-name: animatedBox;
   animation-duration: 60s;
   animation-timing-function: linear;
@@ -216,17 +216,17 @@
 }
 
 .containerAnimate3 {
+  display: flex;
   width: auto;
   height: 5rem;
+  margin-bottom: 0;
   font-family: Overpass;
   font-weight: bold;
   font-size: .9rem;
   color: black;
-  display: flex;
   align-items: center;
   justify-content: center;
   background: white;
-  position: relative;
   animation-name: animatedMox;
   animation-duration: 59s;
   animation-timing-function: linear;
@@ -262,17 +262,17 @@
 }
 
 .containerAnimate4 {
+  display: flex;
+  margin-bottom: 0px;
   width: auto;
   height: 5rem;
   font-family: Overpass;
   font-weight: bold;
   font-size: .9rem;
   color: black;
-  display: flex;
   align-items: center;
   justify-content: center;
   background: white;
-  position: relative;
   animation-name: animatedKox;
   animation-duration: 57s;
   animation-timing-function: linear;
